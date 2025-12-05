@@ -1,0 +1,11 @@
+pandas
+numpy
+sqlalchemy
+pyodbc
+python-dotenv
+jupyterlab
+notebook
+matplotlib
+seaborn
+plotly
+openpyxl
