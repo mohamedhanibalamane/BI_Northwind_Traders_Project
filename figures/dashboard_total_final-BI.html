@@ -1,23 +1,204 @@
-<html><head><title>Dashboard Northwind FINAL BI</title></head><body>
-<h1>Dashboard Northwind – Version FINAL BI</h1>
-<h3>average_basket_final-BI.png</h3>
-<img src="average_basket_final-BI.png" alt="average_basket_final-BI.png" style="max-width:90%;"><br><br>
-<h3>dashboard_complet_final-BI.png</h3>
-<img src="dashboard_complet_final-BI.png" alt="dashboard_complet_final-BI.png" style="max-width:90%;"><br><br>
-<h3>orders_evolution_final-BI.png</h3>
-<img src="orders_evolution_final-BI.png" alt="orders_evolution_final-BI.png" style="max-width:90%;"><br><br>
-<h3>revenue_per_month_final-BI.png</h3>
-<img src="revenue_per_month_final-BI.png" alt="revenue_per_month_final-BI.png" style="max-width:90%;"><br><br>
-<h3>sales_country_pie_final-BI.png</h3>
-<img src="sales_country_pie_final-BI.png" alt="sales_country_pie_final-BI.png" style="max-width:90%;"><br><br>
-<h3>sales_per_country_final-BI.png</h3>
-<img src="sales_per_country_final-BI.png" alt="sales_per_country_final-BI.png" style="max-width:90%;"><br><br>
-<h3>sales_per_month_final-BI.png</h3>
-<img src="sales_per_month_final-BI.png" alt="sales_per_month_final-BI.png" style="max-width:90%;"><br><br>
-<h3>top_clients_final-BI.png</h3>
-<img src="top_clients_final-BI.png" alt="top_clients_final-BI.png" style="max-width:90%;"><br><br>
-<h3>top_employees_final-BI.png</h3>
-<img src="top_employees_final-BI.png" alt="top_employees_final-BI.png" style="max-width:90%;"><br><br>
-<h3>top_products_final-BI.png</h3>
-<img src="top_products_final-BI.png" alt="top_products_final-BI.png" style="max-width:90%;"><br><br>
-</body></html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tableau Analytique du Projet BI</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            background: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+        }
+
+        /* --- MENU LATÉRAL --- */
+        .sidebar {
+            width: 250px;
+            background: #2c3e50;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding-top: 20px;
+            box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+        }
+
+        .sidebar h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 12px 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-left: 4px solid transparent;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background: #34495e;
+            border-left: 4px solid #3498db;
+        }
+
+        /* --- CONTENU --- */
+        .container {
+            max-width: 1000px;
+            margin-left: 270px; /* espace pour le menu */
+            padding: 25px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        .stat-block {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-left: 6px solid #3498db;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* --- Bouton Retour en haut --- */
+        #backToTop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        #backToTop:hover {
+            background: #217dbb;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- --------------- MENU LATÉRAL --------------- -->
+<div class="sidebar">
+    <h2>📊 Dashboard</h2>
+    <a href="#totals">Statistiques Totales</a>
+    <a href="#basket">Panier Moyen</a>
+    <a href="#orders">Évolution des Commandes</a>
+    <a href="#revenue">Revenue par Mois</a>
+    <a href="#pie">Ventes par Pays (Pie)</a>
+    <a href="#country">Ventes par Pays</a>
+    <a href="#month">Ventes par Mois</a>
+    <a href="#clients">Top Clients</a>
+    <a href="#employees">Top Employés</a>
+    <a href="#products">Top Produits</a>
+</div>
+
+<!-- --------------- CONTENU --------------- -->
+<div class="container">
+
+    <h1>- 📊 Tableau de bord Analytique du Projet Business Intelligence -</h1>
+
+    <div class="stat-block" id="totals">
+        <h3>📌 Statistiques Totales</h3>
+        <img src="dashboard_complet_final-BI.png" alt="Dashboard Complet">
+    </div>
+
+    <div class="stat-block" id="basket">
+        <h3>🛒 Panier Moyen par Commande</h3>
+        <img src="average_basket_final-BI.png" alt="Panier Moyen">
+    </div>
+
+    <div class="stat-block" id="orders">
+        <h3>📈 Évolution des Commandes</h3>
+        <img src="orders_evolution_final-BI.png" alt="Orders Evolution">
+    </div>
+
+    <div class="stat-block" id="revenue">
+        <h3>💰 Revenue par Mois</h3>
+        <img src="revenue_per_month_final-BI.png" alt="Revenue Par Mois">
+    </div>
+
+    <div class="stat-block" id="pie">
+        <h3>🌍 Répartition des Ventes par Pays (Pie)</h3>
+        <img src="sales_country_pie_final-BI.png" alt="Sales Country Pie">
+    </div>
+
+    <div class="stat-block" id="country">
+        <h3>📌 Ventes par Pays</h3>
+        <img src="sales_per_country_final-BI.png" alt="Sales Per Country">
+    </div>
+
+    <div class="stat-block" id="month">
+        <h3>📅 Ventes par Mois</h3>
+        <img src="sales_per_month_final-BI.png" alt="Sales Per Month">
+    </div>
+
+    <div class="stat-block" id="clients">
+        <h3>🏆 Top Clients</h3>
+        <img src="top_clients_final-BI.png" alt="Top Clients">
+    </div>
+
+    <div class="stat-block" id="employees">
+        <h3>👔 Top Employés</h3>
+        <img src="top_employees_final-BI.png" alt="Top Employés">
+    </div>
+
+    <div class="stat-block" id="products">
+        <h3>🛍️ Top Produits</h3>
+        <img src="top_products_final-BI.png" alt="Top Products">
+    </div>
+
+</div>
+
+<!-- --------------- BOUTON RETOUR EN HAUT --------------- -->
+<button id="backToTop" onclick="window.scrollTo({top:0, behavior:'smooth'})">⬆</button>
+
+<script>
+    // Afficher le bouton après 400px de scroll
+    window.onscroll = function() {
+        const btn = document.getElementById("backToTop");
+        if (document.documentElement.scrollTop > 400) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    };
+</script>
+
+</body>
+</html>
