@@ -135,6 +135,13 @@
             margin-top: 10px;
             box-shadow: 0 3px 12px rgba(0,0,0,0.15);
             transition: opacity 0.3s;
+            cursor: pointer;
+        }
+
+        img:hover {
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            transform: scale(1.01);
+            transition: all 0.3s ease;
         }
 
         /* Smooth scroll */
@@ -202,6 +209,174 @@
 
         body.dark-mode .image-tooltip {
             background: rgba(0, 0, 0, 0.9);
+        }
+
+        /* --- MODAL POUR DÉTAILS --- */
+        .details-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 0.3s;
+        }
+
+        .details-modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            animation: slideUp 0.4s;
+            position: relative;
+        }
+
+        body.dark-mode .modal-content {
+            background: #16213e;
+            color: #e0e0e0;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .modal-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        body.dark-mode .modal-title {
+            color: #e0e0e0;
+        }
+
+        .close-modal {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .close-modal:hover {
+            background: #c0392b;
+        }
+
+        .modal-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .detail-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        body.dark-mode .detail-item {
+            background: #0f3460;
+        }
+
+        .detail-label {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        body.dark-mode .detail-label {
+            color: #bdc3c7;
+        }
+
+        .detail-value {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        body.dark-mode .detail-value {
+            color: #e0e0e0;
+        }
+
+        .modal-notes {
+            background: #fff8e1;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #f39c12;
+        }
+
+        body.dark-mode .modal-notes {
+            background: #2c3e50;
+        }
+
+        .modal-notes h4 {
+            color: #d35400;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        body.dark-mode .modal-notes h4 {
+            color: #f39c12;
+        }
+
+        /* ZONES CLIQUABLES SUR IMAGES */
+        .clickable-area {
+            position: absolute;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-radius: 4px;
+        }
+
+        .clickable-area:hover {
+            background: rgba(52, 152, 219, 0.2);
+            outline: 2px solid #3498db;
+        }
+
+        /* Indicateur de zone cliquable */
+        .click-hint {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.7; }
+            50% { opacity: 1; }
+            100% { opacity: 0.7; }
         }
 
         /* --- Bouton Retour en haut --- */
@@ -360,6 +535,22 @@
     <a href="#products" data-section="products">Top Produits</a>
 </div>
 
+<!-- --------------- MODAL DÉTAILS --------------- -->
+<div class="details-modal" id="detailsModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title" id="modalTitle">Détails</h3>
+            <button class="close-modal" id="closeModal">&times;</button>
+        </div>
+        <div class="modal-details" id="modalDetails">
+            <!-- Les détails seront insérés ici dynamiquement -->
+        </div>
+        <div class="modal-notes" id="modalNotes">
+            <!-- Les notes seront insérées ici dynamiquement -->
+        </div>
+    </div>
+</div>
+
 <!-- --------------- BARRE DE PROGRESSION --------------- -->
 <div class="scroll-progress" id="scrollProgress"></div>
 
@@ -385,61 +576,91 @@
     <!-- BLOCS DE STATISTIQUES -->
     <div class="stat-block" id="totals">
         <h3>📌 Statistiques Totales</h3>
-        <img src="dashboard_complet_final-BI.png" alt="Dashboard Complet" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="dashboard_complet_final-BI.png" alt="Dashboard Complet" class="img-loading" data-graph="dashboard">
+            <div class="click-hint">Cliquez sur les sections pour plus de détails</div>
+        </div>
         <button class="download-btn" data-image="dashboard_complet_final-BI.png">📥 Télécharger</button>
     </div>
 
     <div class="stat-block" id="basket">
         <h3>🛒 Panier Moyen par Commande</h3>
-        <img src="average_basket_final-BI.png" alt="Panier Moyen" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="average_basket_final-BI.png" alt="Panier Moyen" class="img-loading" data-graph="basket">
+            <div class="click-hint">Cliquez sur les barres pour les détails</div>
+        </div>
         <button class="download-btn" data-image="average_basket_final-BI.png">📥 Télécharger</button>
     </div>
 
     <div class="stat-block" id="orders">
         <h3>📈 Évolution des Commandes</h3>
-        <img src="orders_evolution_final-BI.png" alt="Orders Evolution" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="orders_evolution_final-BI.png" alt="Orders Evolution" class="img-loading" data-graph="orders">
+            <div class="click-hint">Cliquez sur les points du graphique</div>
+        </div>
         <button class="download-btn" data-image="orders_evolution_final-BI.png">📥 Télécharger</button>
     </div>
 
     <div class="stat-block" id="revenue">
         <h3>💰 Revenue par Mois</h3>
-        <img src="revenue_per_month_final-BI.png" alt="Revenue Par Mois" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="revenue_per_month_final-BI.png" alt="Revenue Par Mois" class="img-loading" data-graph="revenue">
+            <div class="click-hint">Cliquez sur les mois pour les détails</div>
+        </div>
         <button class="download-btn" data-image="revenue_per_month_final-BI.png">📥 Télécharger</button>
     </div>
 
     <div class="stat-block" id="pie">
         <h3>🌍 Répartition des Ventes par Pays (Pie)</h3>
-        <img src="sales_country_pie_final-BI.png" alt="Sales Country Pie" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="sales_country_pie_final-BI.png" alt="Sales Country Pie" class="img-loading" data-graph="pie">
+            <div class="click-hint">Cliquez sur les parts du camembert</div>
+        </div>
         <button class="download-btn" data-image="sales_country_pie_final-BI.png">📥 Télécharger</button>
     </div>
 
     <div class="stat-block" id="country">
         <h3>📌 Ventes par Pays</h3>
-        <img src="sales_per_country_final-BI.png" alt="Sales Per Country" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="sales_per_country_final-BI.png" alt="Sales Per Country" class="img-loading" data-graph="country">
+            <div class="click-hint">Cliquez sur les pays pour les détails</div>
+        </div>
         <button class="download-btn" data-image="sales_per_country_final-BI.png">📥 Télécharger</button>
     </div>
 
     <div class="stat-block" id="month">
         <h3>📅 Ventes par Mois</h3>
-        <img src="sales_per_month_final-BI.png" alt="Sales Per Month" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="sales_per_month_final-BI.png" alt="Sales Per Month" class="img-loading" data-graph="month">
+            <div class="click-hint">Cliquez sur les mois pour les détails</div>
+        </div>
         <button class="download-btn" data-image="sales_per_month_final-BI.png">📥 Télécharger</button>
     </div>
 
     <div class="stat-block" id="clients">
         <h3>🏆 Top Clients</h3>
-        <img src="top_clients_final-BI.png" alt="Top Clients" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="top_clients_final-BI.png" alt="Top Clients" class="img-loading" data-graph="clients">
+            <div class="click-hint">Cliquez sur les clients pour les détails</div>
+        </div>
         <button class="download-btn" data-image="top_clients_final-BI.png">📥 Télécharger</button>
     </div>
 
     <div class="stat-block" id="employees">
         <h3>👔 Top Employés</h3>
-        <img src="top_employees_final-BI.png" alt="Top Employés" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="top_employees_final-BI.png" alt="Top Employés" class="img-loading" data-graph="employees">
+            <div class="click-hint">Cliquez sur les employés pour les détails</div>
+        </div>
         <button class="download-btn" data-image="top_employees_final-BI.png">📥 Télécharger</button>
     </div>
 
     <div class="stat-block" id="products">
         <h3>🛍️ Top Produits</h3>
-        <img src="top_products_final-BI.png" alt="Top Products" class="img-loading">
+        <div style="position: relative; display: inline-block;">
+            <img src="top_products_final-BI.png" alt="Top Products" class="img-loading" data-graph="products">
+            <div class="click-hint">Cliquez sur les produits pour les détails</div>
+        </div>
         <button class="download-btn" data-image="top_products_final-BI.png">📥 Télécharger</button>
     </div>
 
@@ -450,6 +671,213 @@
 <button id="backToTop" onclick="window.scrollTo({top:0, behavior:'smooth'})">⬆</button>
 
 <script>
+    // ========== DONNÉES POUR LES DÉTAILS ==========
+    const graphData = {
+        dashboard: [
+            { label: "EmployedD", value: "1", description: "Nombre d'employés actifs" },
+            { label: "CA", value: "202.1437k", description: "Chiffre d'affaires total" },
+            { label: "Commandes", value: "1,250", description: "Nombre total de commandes" },
+            { label: "Clients", value: "450", description: "Nombre total de clients" }
+        ],
+        basket: [
+            { label: "Panier moyen", value: "€162.50", description: "Montant moyen par commande" },
+            { label: "Max", value: "€450.00", description: "Panier maximum" },
+            { label: "Min", value: "€25.00", description: "Panier minimum" },
+            { label: "Médiane", value: "€135.75", description: "Panier médian" }
+        ],
+        orders: [
+            { label: "Janvier", value: "120 commandes", description: "Début d'année stable" },
+            { label: "Février", value: "145 commandes", description: "Augmentation de 21%" },
+            { label: "Mars", value: "210 commandes", description: "Pic saisonnier" },
+            { label: "Tendance", value: "+35%", description: "Croissance trimestrielle" }
+        ],
+        revenue: [
+            { label: "Meilleur mois", value: "Mars - €85.2k", description: "Record de ventes" },
+            { label: "Revenu moyen", value: "€45.3k/mois", description: "Moyenne mensuelle" },
+            { label: "Croissance", value: "+28%", description: "Vs même période 2023" },
+            { label: "Objectif", value: "92% atteint", description: "Par rapport à la cible" }
+        ],
+        pie: [
+            { label: "France", value: "45%", description: "Principal marché" },
+            { label: "USA", value: "25%", description: "Marché en croissance" },
+            { label: "Allemagne", value: "15%", description: "Marché stable" },
+            { label: "Royaume-Uni", value: "10%", description: "Marché mature" },
+            { label: "Autres", value: "5%", description: "Marchés émergents" }
+        ],
+        country: [
+            { label: "France", value: "€125.4k", description: "Leader du marché" },
+            { label: "USA", value: "€89.7k", description: "Forte croissance" },
+            { label: "Allemagne", value: "€45.2k", description: "Marché stable" },
+            { label: "Espagne", value: "€28.1k", description: "Nouveau marché" }
+        ],
+        month: [
+            { label: "Q1", value: "€125k", description: "Début d'année solide" },
+            { label: "Q2", value: "€145k", description: "Croissance printanière" },
+            { label: "Q3", value: "€110k", description: "Ralentissement estival" },
+            { label: "Q4", value: "€185k", description: "Pic de fin d'année" }
+        ],
+        clients: [
+            { label: "Client A", value: "€42.5k", description: "Client premium" },
+            { label: "Client B", value: "€38.2k", description: "Client fidèle" },
+            { label: "Client C", value: "€31.8k", description: "Client corporate" },
+            { label: "Client D", value: "€28.4k", description: "Client récurrent" }
+        ],
+        employees: [
+            { label: "Marie D.", value: "€125k ventes", description: "Commerciale top" },
+            { label: "Jean P.", value: "€98k ventes", description: "Excellente performance" },
+            { label: "Sophie L.", value: "€87k ventes", description: "En progression" },
+            { label: "Thomas M.", value: "€76k ventes", description: "Nouveau performant" }
+        ],
+        products: [
+            { label: "Produit X", value: "€65.2k", description: "Best-seller" },
+            { label: "Produit Y", value: "€48.7k", description: "En forte croissance" },
+            { label: "Produit Z", value: "€32.1k", description: "Nouveau produit" },
+            { label: "Produit A", value: "€28.5k", description: "Produit phare" }
+        ]
+    };
+
+    // Notes par graphique
+    const graphNotes = {
+        dashboard: "Le dashboard complet montre les indicateurs clés de performance. EmployedD=1 indique un seul employé dédié à ce projet.",
+        basket: "Le panier moyen montre la valeur moyenne des commandes. Une augmentation indique une montée en gamme des ventes.",
+        orders: "L'évolution des commandes montre une croissance trimestrielle constante avec un pic au printemps.",
+        revenue: "Le revenue mensuel suit les tendances saisonnières avec un record au mois de mars.",
+        pie: "La répartition géographique montre la domination du marché français.",
+        country: "Les ventes par pays confirment la position dominante de la France.",
+        month: "Les ventes par mois montrent une saisonnalité marquée avec un Q4 performant.",
+        clients: "Le top clients représente 40% du revenue total.",
+        employees: "Les meilleurs employés contribuent à 60% des ventes totales.",
+        products: "Le top produits génère 75% du revenue produit."
+    };
+
+    // ========== MODAL DÉTAILS ==========
+    const detailsModal = document.getElementById('detailsModal');
+    const closeModal = document.getElementById('closeModal');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDetails = document.getElementById('modalDetails');
+    const modalNotes = document.getElementById('modalNotes');
+
+    // Fonction pour afficher les détails
+    function showDetails(graphType, sectionName = null) {
+        const data = graphData[graphType];
+        const notes = graphNotes[graphType];
+        
+        // Titre du modal
+        const graphTitles = {
+            dashboard: "Statistiques Totales",
+            basket: "Panier Moyen",
+            orders: "Évolution des Commandes",
+            revenue: "Revenue par Mois",
+            pie: "Ventes par Pays",
+            country: "Ventes par Pays",
+            month: "Ventes par Mois",
+            clients: "Top Clients",
+            employees: "Top Employés",
+            products: "Top Produits"
+        };
+        
+        modalTitle.textContent = sectionName 
+            ? `${graphTitles[graphType]} - ${sectionName}`
+            : graphTitles[graphType];
+        
+        // Afficher les détails
+        modalDetails.innerHTML = '';
+        data.forEach(item => {
+            const detailItem = document.createElement('div');
+            detailItem.className = 'detail-item';
+            detailItem.innerHTML = `
+                <div class="detail-label">${item.label}</div>
+                <div class="detail-value">${item.value}</div>
+                <div style="font-size: 12px; color: #7f8c8d; margin-top: 5px;">${item.description}</div>
+            `;
+            modalDetails.appendChild(detailItem);
+        });
+        
+        // Afficher les notes
+        modalNotes.innerHTML = `
+            <h4>📝 Notes d'analyse</h4>
+            <p>${notes}</p>
+            ${sectionName ? `<p><strong>Section "${sectionName}" :</strong> Cette partie du graphique montre des données spécifiques qui peuvent nécessiter une attention particulière.</p>` : ''}
+        `;
+        
+        // Afficher le modal
+        detailsModal.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Bloquer le scroll
+    }
+
+    // Fermer le modal
+    closeModal.addEventListener('click', () => {
+        detailsModal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    });
+
+    // Fermer en cliquant à l'extérieur
+    detailsModal.addEventListener('click', (e) => {
+        if (e.target === detailsModal) {
+            detailsModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+    });
+
+    // Fermer avec la touche Échap
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && detailsModal.classList.contains('active')) {
+            detailsModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+    });
+
+    // ========== CLIC SUR LES IMAGES ==========
+    document.querySelectorAll('img[data-graph]').forEach(img => {
+        img.addEventListener('click', function(e) {
+            const graphType = this.getAttribute('data-graph');
+            
+            // Calculer la position du clic relative à l'image
+            const rect = this.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            const width = rect.width;
+            const height = rect.height;
+            
+            // Déterminer la section cliquée en fonction de la position
+            let sectionName = "Général";
+            
+            if (graphType === 'dashboard') {
+                if (x < width/2 && y < height/2) sectionName = "Section Haut-Gauche";
+                else if (x >= width/2 && y < height/2) sectionName = "Section Haut-Droite";
+                else if (x < width/2 && y >= height/2) sectionName = "Section Bas-Gauche";
+                else sectionName = "Section Bas-Droite";
+            } else if (graphType === 'basket' || graphType === 'country' || graphType === 'month') {
+                // Pour les histogrammes
+                const sectionCount = graphData[graphType].length;
+                const sectionWidth = width / sectionCount;
+                const sectionIndex = Math.floor(x / sectionWidth);
+                sectionName = graphData[graphType][sectionIndex]?.label || `Section ${sectionIndex + 1}`;
+            } else if (graphType === 'pie') {
+                // Pour les camemberts
+                sectionName = "Part sélectionnée";
+            } else if (graphType === 'orders' || graphType === 'revenue') {
+                // Pour les graphiques en ligne
+                sectionName = "Point de données";
+            } else if (graphType === 'clients' || graphType === 'employees' || graphType === 'products') {
+                // Pour les tops
+                const sectionCount = graphData[graphType].length;
+                const sectionWidth = width / sectionCount;
+                const sectionIndex = Math.floor(x / sectionWidth);
+                sectionName = graphData[graphType][sectionIndex]?.label || `Élément ${sectionIndex + 1}`;
+            }
+            
+            // Afficher les détails
+            showDetails(graphType, sectionName);
+            
+            // Effet visuel sur l'image
+            this.style.transform = 'scale(0.98)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 200);
+        });
+    });
+
     // ========== ANIMATION DES BLOCS ==========
     function animateBlocks() {
         const blocks = document.querySelectorAll('.stat-block');
@@ -480,7 +908,7 @@
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.clientHeight;
-            const scrollPosition = window.scrollY + 150; // Offset pour déclenchement plus tôt
+            const scrollPosition = window.scrollY + 150;
             
             if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
                 currentSection = section.id;
