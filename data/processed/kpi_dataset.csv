@@ -1,0 +1,831 @@
+OrderID,CustomerID,EmployeeID,OrderDate,RequiredDate,ShippedDate,ShipVia,Freight,ShipName,ShipAddress,ShipCity,ShipRegion,ShipPostalCode,ShipCountry,Delivered,CompanyName,City,Country,FirstName,LastName
+10248,VINET,5,1996-07-04,1996-08-01,1996-07-16,3,32.38,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,,51100,France,True,Vins et alcools Chevalier,Reims,France,Steven,Buchanan
+10249,TOMSP,6,1996-07-05,1996-08-16,1996-07-10,1,11.61,Toms Spezialit ten,Luisenstr. 48,M nster,,44087,Germany,True,Toms Spezialit ten,M nster,Germany,Michael,Suyama
+10250,HANAR,4,1996-07-08,1996-08-05,1996-07-12,2,65.83,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Margaret,Peacock
+10251,VICTE,3,1996-07-08,1996-08-05,1996-07-15,1,41.34,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Janet,Leverling
+10252,SUPRD,4,1996-07-09,1996-08-06,1996-07-11,2,51.3,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Margaret,Peacock
+10253,HANAR,3,1996-07-10,1996-07-24,1996-07-16,2,58.17,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Janet,Leverling
+10254,CHOPS,5,1996-07-11,1996-08-08,1996-07-23,2,22.98,Chop-suey Chinese,Hauptstr. 31,Bern,,3012,Switzerland,True,Chop-suey Chinese,Bern,Switzerland,Steven,Buchanan
+10255,RICSU,9,1996-07-12,1996-08-09,1996-07-15,3,148.33,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,True,Richter Supermarkt,Gen ve,Switzerland,Anne,Dodsworth
+10256,WELLI,3,1996-07-15,1996-08-12,1996-07-17,2,13.97,Wellington Importadora,"Rua do Mercado, 12",Resende,SP,08737-363,Brazil,True,Wellington Importadora,Resende,Brazil,Janet,Leverling
+10257,HILAA,4,1996-07-16,1996-08-13,1996-07-22,3,81.91,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Margaret,Peacock
+10258,ERNSH,1,1996-07-17,1996-08-14,1996-07-23,1,140.51,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Nancy,Davolio
+10259,CENTC,4,1996-07-18,1996-08-15,1996-07-25,3,3.25,Centro comercial Moctezuma,Sierras de Granada 9993,M xico D.F.,,05022,Mexico,True,Centro comercial Moctezuma,M xico D.F.,Mexico,Margaret,Peacock
+10260,OTTIK,4,1996-07-19,1996-08-16,1996-07-29,1,55.09,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Margaret,Peacock
+10261,QUEDE,4,1996-07-19,1996-08-16,1996-07-30,2,3.05,Que Del cia,"Rua da Panificadora, 12",Rio de Janeiro,RJ,02389-673,Brazil,True,Que Del cia,Rio de Janeiro,Brazil,Margaret,Peacock
+10262,RATTC,8,1996-07-22,1996-08-19,1996-07-25,3,48.29,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Laura,Callahan
+10263,ERNSH,9,1996-07-23,1996-08-20,1996-07-31,3,146.06,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Anne,Dodsworth
+10264,FOLKO,6,1996-07-24,1996-08-21,1996-08-23,3,3.67,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Michael,Suyama
+10265,BLONP,2,1996-07-25,1996-08-22,1996-08-12,1,55.28,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Andrew,Fuller
+10266,WARTH,3,1996-07-26,1996-09-06,1996-07-31,3,25.73,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Janet,Leverling
+10267,FRANK,4,1996-07-29,1996-08-26,1996-08-06,1,208.58,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Margaret,Peacock
+10268,GROSR,8,1996-07-30,1996-08-27,1996-08-02,3,66.29,GROSELLA-Restaurante,5  Ave. Los Palos Grandes,Caracas,DF,1081,Venezuela,True,GROSELLA-Restaurante,Caracas,Venezuela,Laura,Callahan
+10269,WHITC,5,1996-07-31,1996-08-14,1996-08-09,1,4.56,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Steven,Buchanan
+10270,WARTH,1,1996-08-01,1996-08-29,1996-08-02,1,136.54,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Nancy,Davolio
+10271,SPLIR,6,1996-08-01,1996-08-29,1996-08-30,2,4.54,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,True,Split Rail Beer & Ale,Lander,USA,Michael,Suyama
+10272,RATTC,6,1996-08-02,1996-08-30,1996-08-06,2,98.03,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Michael,Suyama
+10273,QUICK,3,1996-08-05,1996-09-02,1996-08-12,3,76.07,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Janet,Leverling
+10274,VINET,6,1996-08-06,1996-09-03,1996-08-16,1,6.01,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,,51100,France,True,Vins et alcools Chevalier,Reims,France,Michael,Suyama
+10275,MAGAA,1,1996-08-07,1996-09-04,1996-08-09,1,26.93,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Nancy,Davolio
+10276,TORTU,8,1996-08-08,1996-08-22,1996-08-14,3,13.84,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Laura,Callahan
+10277,MORGK,2,1996-08-09,1996-09-06,1996-08-13,3,125.77,Morgenstern Gesundkost,Heerstr. 22,Leipzig,,04179,Germany,True,Morgenstern Gesundkost,Leipzig,Germany,Andrew,Fuller
+10278,BERGS,8,1996-08-12,1996-09-09,1996-08-16,2,92.69,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Laura,Callahan
+10279,LEHMS,8,1996-08-13,1996-09-10,1996-08-16,2,25.83,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Laura,Callahan
+10280,BERGS,2,1996-08-14,1996-09-11,1996-09-12,1,8.98,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Andrew,Fuller
+10281,ROMEY,4,1996-08-14,1996-08-28,1996-08-21,1,2.94,Romero y tomillo,"Gran V a, 1",Madrid,,28001,Spain,True,Romero y tomillo,Madrid,Spain,Margaret,Peacock
+10282,ROMEY,4,1996-08-15,1996-09-12,1996-08-21,1,12.69,Romero y tomillo,"Gran V a, 1",Madrid,,28001,Spain,True,Romero y tomillo,Madrid,Spain,Margaret,Peacock
+10283,LILAS,3,1996-08-16,1996-09-13,1996-08-23,3,84.81,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Janet,Leverling
+10284,LEHMS,4,1996-08-19,1996-09-16,1996-08-27,1,76.56,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Margaret,Peacock
+10285,QUICK,1,1996-08-20,1996-09-17,1996-08-26,2,76.83,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Nancy,Davolio
+10286,QUICK,8,1996-08-21,1996-09-18,1996-08-30,3,229.24,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Laura,Callahan
+10287,RICAR,8,1996-08-22,1996-09-19,1996-08-28,3,12.76,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Laura,Callahan
+10288,REGGC,4,1996-08-23,1996-09-20,1996-09-03,1,7.45,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Margaret,Peacock
+10289,BSBEV,7,1996-08-26,1996-09-23,1996-08-28,3,22.77,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Robert,King
+10290,COMMI,8,1996-08-27,1996-09-24,1996-09-03,1,79.7,Com rcio Mineiro,"Av. dos Lus adas, 23",Sao Paulo,SP,05432-043,Brazil,True,Com rcio Mineiro,Sao Paulo,Brazil,Laura,Callahan
+10291,QUEDE,6,1996-08-27,1996-09-24,1996-09-04,2,6.4,Que Del cia,"Rua da Panificadora, 12",Rio de Janeiro,RJ,02389-673,Brazil,True,Que Del cia,Rio de Janeiro,Brazil,Michael,Suyama
+10292,TRADH,1,1996-08-28,1996-09-25,1996-09-02,2,1.35,Tradi ao Hipermercados,"Av. In s de Castro, 414",Sao Paulo,SP,05634-030,Brazil,True,Tradi  o Hipermercados,Sao Paulo,Brazil,Nancy,Davolio
+10293,TORTU,1,1996-08-29,1996-09-26,1996-09-11,3,21.18,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Nancy,Davolio
+10294,RATTC,4,1996-08-30,1996-09-27,1996-09-05,2,147.26,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Margaret,Peacock
+10295,VINET,2,1996-09-02,1996-09-30,1996-09-10,2,1.15,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,,51100,France,True,Vins et alcools Chevalier,Reims,France,Andrew,Fuller
+10296,LILAS,6,1996-09-03,1996-10-01,1996-09-11,1,0.12,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Michael,Suyama
+10297,BLONP,5,1996-09-04,1996-10-16,1996-09-10,2,5.74,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Steven,Buchanan
+10298,HUNGO,6,1996-09-05,1996-10-03,1996-09-11,2,168.22,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Michael,Suyama
+10299,RICAR,4,1996-09-06,1996-10-04,1996-09-13,2,29.76,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Margaret,Peacock
+10300,MAGAA,2,1996-09-09,1996-10-07,1996-09-18,2,17.68,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Andrew,Fuller
+10301,WANDK,8,1996-09-09,1996-10-07,1996-09-17,2,45.08,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Laura,Callahan
+10302,SUPRD,4,1996-09-10,1996-10-08,1996-10-09,2,6.27,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Margaret,Peacock
+10303,GODOS,7,1996-09-11,1996-10-09,1996-09-18,2,107.83,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Robert,King
+10304,TORTU,1,1996-09-12,1996-10-10,1996-09-17,2,63.79,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Nancy,Davolio
+10305,OLDWO,8,1996-09-13,1996-10-11,1996-10-09,3,257.62,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Laura,Callahan
+10306,ROMEY,1,1996-09-16,1996-10-14,1996-09-23,3,7.56,Romero y tomillo,"Gran V a, 1",Madrid,,28001,Spain,True,Romero y tomillo,Madrid,Spain,Nancy,Davolio
+10307,LONEP,2,1996-09-17,1996-10-15,1996-09-25,2,0.56,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,True,Lonesome Pine Restaurant,Portland,USA,Andrew,Fuller
+10308,ANATR,7,1996-09-18,1996-10-16,1996-09-24,3,1.61,Ana Trujillo Emparedados y helados,Avda. de la Constituci n 2222,M xico D.F.,,05021,Mexico,True,Ana Trujillo Emparedados y helados,M xico D.F.,Mexico,Robert,King
+10309,HUNGO,3,1996-09-19,1996-10-17,1996-10-23,1,47.3,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Janet,Leverling
+10310,THEBI,8,1996-09-20,1996-10-18,1996-09-27,2,17.52,The Big Cheese,89 Jefferson Way Suite 2,Portland,OR,97201,USA,True,The Big Cheese,Portland,USA,Laura,Callahan
+10311,DUMON,1,1996-09-20,1996-10-04,1996-09-26,3,24.69,Du monde entier,"67, rue des Cinquante Otages",Nantes,,44000,France,True,Du monde entier,Nantes,France,Nancy,Davolio
+10312,WANDK,2,1996-09-23,1996-10-21,1996-10-03,2,40.26,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Andrew,Fuller
+10313,QUICK,2,1996-09-24,1996-10-22,1996-10-04,2,1.96,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Andrew,Fuller
+10314,RATTC,1,1996-09-25,1996-10-23,1996-10-04,2,74.16,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Nancy,Davolio
+10315,ISLAT,4,1996-09-26,1996-10-24,1996-10-03,2,41.76,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Margaret,Peacock
+10316,RATTC,1,1996-09-27,1996-10-25,1996-10-08,3,150.15,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Nancy,Davolio
+10317,LONEP,6,1996-09-30,1996-10-28,1996-10-10,1,12.69,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,True,Lonesome Pine Restaurant,Portland,USA,Michael,Suyama
+10318,ISLAT,8,1996-10-01,1996-10-29,1996-10-04,2,4.73,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Laura,Callahan
+10319,TORTU,7,1996-10-02,1996-10-30,1996-10-11,3,64.5,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Robert,King
+10320,WARTH,5,1996-10-03,1996-10-17,1996-10-18,3,34.57,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Steven,Buchanan
+10321,ISLAT,3,1996-10-03,1996-10-31,1996-10-11,2,3.43,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Janet,Leverling
+10322,PERIC,7,1996-10-04,1996-11-01,1996-10-23,3,0.4,Pericles Comidas cl sicas,Calle Dr. Jorge Cash 321,M xico D.F.,,05033,Mexico,True,Pericles Comidas cl sicas,M xico D.F.,Mexico,Robert,King
+10323,KOENE,4,1996-10-07,1996-11-04,1996-10-14,1,4.88,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Margaret,Peacock
+10324,SAVEA,9,1996-10-08,1996-11-05,1996-10-10,1,214.27,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Anne,Dodsworth
+10325,KOENE,1,1996-10-09,1996-10-23,1996-10-14,3,64.86,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Nancy,Davolio
+10326,BOLID,4,1996-10-10,1996-11-07,1996-10-14,2,77.92,B lido Comidas preparadas,"C/ Araquil, 67",Madrid,,28023,Spain,True,B lido Comidas preparadas,Madrid,Spain,Margaret,Peacock
+10327,FOLKO,2,1996-10-11,1996-11-08,1996-10-14,1,63.36,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Andrew,Fuller
+10328,FURIB,4,1996-10-14,1996-11-11,1996-10-17,3,87.03,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,,1675,Portugal,True,Furia Bacalhau e Frutos do Mar,Lisboa,Portugal,Margaret,Peacock
+10329,SPLIR,4,1996-10-15,1996-11-26,1996-10-23,2,191.67,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,True,Split Rail Beer & Ale,Lander,USA,Margaret,Peacock
+10330,LILAS,3,1996-10-16,1996-11-13,1996-10-28,1,12.75,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Janet,Leverling
+10331,BONAP,9,1996-10-16,1996-11-27,1996-10-21,1,10.19,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Anne,Dodsworth
+10332,MEREP,3,1996-10-17,1996-11-28,1996-10-21,2,52.84,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Janet,Leverling
+10333,WARTH,5,1996-10-18,1996-11-15,1996-10-25,3,0.59,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Steven,Buchanan
+10334,VICTE,8,1996-10-21,1996-11-18,1996-10-28,2,8.56,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Laura,Callahan
+10335,HUNGO,7,1996-10-22,1996-11-19,1996-10-24,2,42.11,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Robert,King
+10336,PRINI,7,1996-10-23,1996-11-20,1996-10-25,2,15.51,Princesa Isabel Vinhos,Estrada da sa de n. 58,Lisboa,,1756,Portugal,True,Princesa Isabel Vinhos,Lisboa,Portugal,Robert,King
+10337,FRANK,4,1996-10-24,1996-11-21,1996-10-29,3,108.26,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Margaret,Peacock
+10338,OLDWO,4,1996-10-25,1996-11-22,1996-10-29,3,84.21,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Margaret,Peacock
+10339,MEREP,2,1996-10-28,1996-11-25,1996-11-04,2,15.66,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Andrew,Fuller
+10340,BONAP,1,1996-10-29,1996-11-26,1996-11-08,3,166.31,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Nancy,Davolio
+10341,SIMOB,7,1996-10-29,1996-11-26,1996-11-05,3,26.78,Simons bistro,Vinb ltet 34,Kobenhavn,,1734,Denmark,True,Simons bistro,Kobenhavn,Denmark,Robert,King
+10342,FRANK,4,1996-10-30,1996-11-13,1996-11-04,2,54.83,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Margaret,Peacock
+10343,LEHMS,4,1996-10-31,1996-11-28,1996-11-06,1,110.37,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Margaret,Peacock
+10344,WHITC,4,1996-11-01,1996-11-29,1996-11-05,2,23.29,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Margaret,Peacock
+10345,QUICK,2,1996-11-04,1996-12-02,1996-11-11,2,249.06,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Andrew,Fuller
+10346,RATTC,3,1996-11-05,1996-12-17,1996-11-08,3,142.08,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Janet,Leverling
+10347,FAMIA,4,1996-11-06,1996-12-04,1996-11-08,3,3.1,Familia Arquibaldo,"Rua Or s, 92",Sao Paulo,SP,05442-030,Brazil,True,Familia Arquibaldo,Sao Paulo,Brazil,Margaret,Peacock
+10348,WANDK,4,1996-11-07,1996-12-05,1996-11-15,2,0.78,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Margaret,Peacock
+10349,SPLIR,7,1996-11-08,1996-12-06,1996-11-15,1,8.63,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,True,Split Rail Beer & Ale,Lander,USA,Robert,King
+10350,LAMAI,6,1996-11-11,1996-12-09,1996-12-03,2,64.19,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Michael,Suyama
+10351,ERNSH,1,1996-11-11,1996-12-09,1996-11-20,1,162.33,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Nancy,Davolio
+10352,FURIB,3,1996-11-12,1996-11-26,1996-11-18,3,1.3,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,,1675,Portugal,True,Furia Bacalhau e Frutos do Mar,Lisboa,Portugal,Janet,Leverling
+10353,PICCO,7,1996-11-13,1996-12-11,1996-11-25,3,360.63,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Robert,King
+10354,PERIC,8,1996-11-14,1996-12-12,1996-11-20,3,53.8,Pericles Comidas cl sicas,Calle Dr. Jorge Cash 321,M xico D.F.,,05033,Mexico,True,Pericles Comidas cl sicas,M xico D.F.,Mexico,Laura,Callahan
+10355,AROUT,6,1996-11-15,1996-12-13,1996-11-20,1,41.95,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Michael,Suyama
+10356,WANDK,6,1996-11-18,1996-12-16,1996-11-27,2,36.71,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Michael,Suyama
+10357,LILAS,1,1996-11-19,1996-12-17,1996-12-02,3,34.88,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Nancy,Davolio
+10358,LAMAI,5,1996-11-20,1996-12-18,1996-11-27,1,19.64,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Steven,Buchanan
+10359,SEVES,5,1996-11-21,1996-12-19,1996-11-26,3,288.43,Seven Seas Imports,90 Wadhurst Rd.,London,,OX15 4NB,UK,True,Seven Seas Imports,London,UK,Steven,Buchanan
+10360,BLONP,4,1996-11-22,1996-12-20,1996-12-02,3,131.7,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Margaret,Peacock
+10361,QUICK,1,1996-11-22,1996-12-20,1996-12-03,2,183.17,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Nancy,Davolio
+10362,BONAP,3,1996-11-25,1996-12-23,1996-11-28,1,96.04,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Janet,Leverling
+10363,DRACD,4,1996-11-26,1996-12-24,1996-12-04,3,30.54,Drachenblut Delikatessen,Walserweg 21,Aachen,,52066,Germany,True,Drachenblut Delikatessen,Aachen,Germany,Margaret,Peacock
+10364,EASTC,1,1996-11-26,1997-01-07,1996-12-04,1,71.97,Eastern Connection,35 King George,London,,WX3 6FW,UK,True,Eastern Connection,London,UK,Nancy,Davolio
+10365,ANTON,3,1996-11-27,1996-12-25,1996-12-02,2,22.0,Antonio Moreno Taquer a,Mataderos  2312,M xico D.F.,,05023,Mexico,True,Antonio Moreno Taquer a,M xico D.F.,Mexico,Janet,Leverling
+10366,GALED,8,1996-11-28,1997-01-09,1996-12-30,2,10.14,Galer a del gastron mo,"Rambla de Catalu a, 23",Barcelona,,8022,Spain,True,Galer a del gastr nomo,Barcelona,Spain,Laura,Callahan
+10367,VAFFE,7,1996-11-28,1996-12-26,1996-12-02,3,13.55,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Robert,King
+10368,ERNSH,2,1996-11-29,1996-12-27,1996-12-02,2,101.95,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Andrew,Fuller
+10369,SPLIR,8,1996-12-02,1996-12-30,1996-12-09,2,195.68,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,True,Split Rail Beer & Ale,Lander,USA,Laura,Callahan
+10370,CHOPS,6,1996-12-03,1996-12-31,1996-12-27,2,1.17,Chop-suey Chinese,Hauptstr. 31,Bern,,3012,Switzerland,True,Chop-suey Chinese,Bern,Switzerland,Michael,Suyama
+10371,LAMAI,1,1996-12-03,1996-12-31,1996-12-24,1,0.45,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Nancy,Davolio
+10372,QUEEN,5,1996-12-04,1997-01-01,1996-12-09,2,890.78,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Steven,Buchanan
+10373,HUNGO,4,1996-12-05,1997-01-02,1996-12-11,3,124.12,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Margaret,Peacock
+10374,WOLZA,1,1996-12-05,1997-01-02,1996-12-09,3,3.94,Wolski Zajazd,ul. Filtrowa 68,Warszawa,,01-012,Poland,True,Wolski  Zajazd,Warszawa,Poland,Nancy,Davolio
+10375,HUNGC,3,1996-12-06,1997-01-03,1996-12-09,2,20.12,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,True,Hungry Coyote Import Store,Elgin,USA,Janet,Leverling
+10376,MEREP,1,1996-12-09,1997-01-06,1996-12-13,2,20.39,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Nancy,Davolio
+10377,SEVES,1,1996-12-09,1997-01-06,1996-12-13,3,22.21,Seven Seas Imports,90 Wadhurst Rd.,London,,OX15 4NB,UK,True,Seven Seas Imports,London,UK,Nancy,Davolio
+10378,FOLKO,5,1996-12-10,1997-01-07,1996-12-19,3,5.44,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Steven,Buchanan
+10379,QUEDE,2,1996-12-11,1997-01-08,1996-12-13,1,45.03,Que Del cia,"Rua da Panificadora, 12",Rio de Janeiro,RJ,02389-673,Brazil,True,Que Del cia,Rio de Janeiro,Brazil,Andrew,Fuller
+10380,HUNGO,8,1996-12-12,1997-01-09,1997-01-16,3,35.03,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Laura,Callahan
+10381,LILAS,3,1996-12-12,1997-01-09,1996-12-13,3,7.99,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Janet,Leverling
+10382,ERNSH,4,1996-12-13,1997-01-10,1996-12-16,1,94.77,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Margaret,Peacock
+10383,AROUT,8,1996-12-16,1997-01-13,1996-12-18,3,34.24,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Laura,Callahan
+10384,BERGS,3,1996-12-16,1997-01-13,1996-12-20,3,168.64,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Janet,Leverling
+10385,SPLIR,1,1996-12-17,1997-01-14,1996-12-23,2,30.96,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,True,Split Rail Beer & Ale,Lander,USA,Nancy,Davolio
+10386,FAMIA,9,1996-12-18,1997-01-01,1996-12-25,3,13.99,Familia Arquibaldo,"Rua Or s, 92",Sao Paulo,SP,05442-030,Brazil,True,Familia Arquibaldo,Sao Paulo,Brazil,Anne,Dodsworth
+10387,SANTG,1,1996-12-18,1997-01-15,1996-12-20,2,93.63,Sant  Gourmet,Erling Skakkes gate 78,Stavern,,4110,Norway,True,Sant  Gourmet,Stavern,Norway,Nancy,Davolio
+10388,SEVES,2,1996-12-19,1997-01-16,1996-12-20,1,34.86,Seven Seas Imports,90 Wadhurst Rd.,London,,OX15 4NB,UK,True,Seven Seas Imports,London,UK,Andrew,Fuller
+10389,BOTTM,4,1996-12-20,1997-01-17,1996-12-24,2,47.42,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Margaret,Peacock
+10390,ERNSH,6,1996-12-23,1997-01-20,1996-12-26,1,126.38,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Michael,Suyama
+10391,DRACD,3,1996-12-23,1997-01-20,1996-12-31,3,5.45,Drachenblut Delikatessen,Walserweg 21,Aachen,,52066,Germany,True,Drachenblut Delikatessen,Aachen,Germany,Janet,Leverling
+10392,PICCO,2,1996-12-24,1997-01-21,1997-01-01,3,122.46,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Andrew,Fuller
+10393,SAVEA,1,1996-12-25,1997-01-22,1997-01-03,3,126.56,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Nancy,Davolio
+10394,HUNGC,1,1996-12-25,1997-01-22,1997-01-03,3,30.34,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,True,Hungry Coyote Import Store,Elgin,USA,Nancy,Davolio
+10395,HILAA,6,1996-12-26,1997-01-23,1997-01-03,1,184.41,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Michael,Suyama
+10396,FRANK,1,1996-12-27,1997-01-10,1997-01-06,3,135.35,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Nancy,Davolio
+10397,PRINI,5,1996-12-27,1997-01-24,1997-01-02,1,60.26,Princesa Isabel Vinhos,Estrada da sa de n. 58,Lisboa,,1756,Portugal,True,Princesa Isabel Vinhos,Lisboa,Portugal,Steven,Buchanan
+10398,SAVEA,2,1996-12-30,1997-01-27,1997-01-09,3,89.16,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Andrew,Fuller
+10399,VAFFE,8,1996-12-31,1997-01-14,1997-01-08,3,27.36,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Laura,Callahan
+10400,EASTC,1,1997-01-01,1997-01-29,1997-01-16,3,83.93,Eastern Connection,35 King George,London,,WX3 6FW,UK,True,Eastern Connection,London,UK,Nancy,Davolio
+10401,RATTC,1,1997-01-01,1997-01-29,1997-01-10,1,12.51,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Nancy,Davolio
+10402,ERNSH,8,1997-01-02,1997-02-13,1997-01-10,2,67.88,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Laura,Callahan
+10403,ERNSH,4,1997-01-03,1997-01-31,1997-01-09,3,73.79,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Margaret,Peacock
+10404,MAGAA,2,1997-01-03,1997-01-31,1997-01-08,1,155.97,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Andrew,Fuller
+10405,LINOD,1,1997-01-06,1997-02-03,1997-01-22,1,34.82,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Nancy,Davolio
+10406,QUEEN,7,1997-01-07,1997-02-18,1997-01-13,1,108.04,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Robert,King
+10407,OTTIK,2,1997-01-07,1997-02-04,1997-01-30,2,91.48,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Andrew,Fuller
+10408,FOLIG,8,1997-01-08,1997-02-05,1997-01-14,1,11.26,Folies gourmandes,"184, chauss e de Tournai",Lille,,59000,France,True,Folies gourmandes,Lille,France,Laura,Callahan
+10409,OCEAN,3,1997-01-09,1997-02-06,1997-01-14,1,29.83,Oc ano Atl ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,,1010,Argentina,True,Oc ano Atl ntico Ltda.,Buenos Aires,Argentina,Janet,Leverling
+10410,BOTTM,3,1997-01-10,1997-02-07,1997-01-15,3,2.4,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Janet,Leverling
+10411,BOTTM,9,1997-01-10,1997-02-07,1997-01-21,3,23.65,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Anne,Dodsworth
+10412,WARTH,8,1997-01-13,1997-02-10,1997-01-15,2,3.77,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Laura,Callahan
+10413,LAMAI,3,1997-01-14,1997-02-11,1997-01-16,2,95.66,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Janet,Leverling
+10414,FAMIA,2,1997-01-14,1997-02-11,1997-01-17,3,21.48,Familia Arquibaldo,"Rua Or s, 92",Sao Paulo,SP,05442-030,Brazil,True,Familia Arquibaldo,Sao Paulo,Brazil,Andrew,Fuller
+10415,HUNGC,3,1997-01-15,1997-02-12,1997-01-24,1,0.2,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,True,Hungry Coyote Import Store,Elgin,USA,Janet,Leverling
+10416,WARTH,8,1997-01-16,1997-02-13,1997-01-27,3,22.72,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Laura,Callahan
+10417,SIMOB,4,1997-01-16,1997-02-13,1997-01-28,3,70.29,Simons bistro,Vinb ltet 34,Kobenhavn,,1734,Denmark,True,Simons bistro,Kobenhavn,Denmark,Margaret,Peacock
+10418,QUICK,4,1997-01-17,1997-02-14,1997-01-24,1,17.55,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Margaret,Peacock
+10419,RICSU,4,1997-01-20,1997-02-17,1997-01-30,2,137.35,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,True,Richter Supermarkt,Gen ve,Switzerland,Margaret,Peacock
+10420,WELLI,3,1997-01-21,1997-02-18,1997-01-27,1,44.12,Wellington Importadora,"Rua do Mercado, 12",Resende,SP,08737-363,Brazil,True,Wellington Importadora,Resende,Brazil,Janet,Leverling
+10421,QUEDE,8,1997-01-21,1997-03-04,1997-01-27,1,99.23,Que Del cia,"Rua da Panificadora, 12",Rio de Janeiro,RJ,02389-673,Brazil,True,Que Del cia,Rio de Janeiro,Brazil,Laura,Callahan
+10422,FRANS,2,1997-01-22,1997-02-19,1997-01-31,1,3.02,Franchi S.p.A.,Via Monte Bianco 34,Torino,,10100,Italy,True,Franchi S.p.A.,Torino,Italy,Andrew,Fuller
+10423,GOURL,6,1997-01-23,1997-02-06,1997-02-24,3,24.5,Gourmet Lanchonetes,"Av. Brasil, 442",Campinas,SP,04876-786,Brazil,True,Gourmet Lanchonetes,Campinas,Brazil,Michael,Suyama
+10424,MEREP,7,1997-01-23,1997-02-20,1997-01-27,2,370.61,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Robert,King
+10425,LAMAI,6,1997-01-24,1997-02-21,1997-02-14,2,7.93,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Michael,Suyama
+10426,GALED,4,1997-01-27,1997-02-24,1997-02-06,1,18.69,Galer a del gastron mo,"Rambla de Catalu a, 23",Barcelona,,8022,Spain,True,Galer a del gastr nomo,Barcelona,Spain,Margaret,Peacock
+10427,PICCO,4,1997-01-27,1997-02-24,1997-03-03,2,31.29,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Margaret,Peacock
+10428,REGGC,7,1997-01-28,1997-02-25,1997-02-04,1,11.09,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Robert,King
+10429,HUNGO,3,1997-01-29,1997-03-12,1997-02-07,2,56.63,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Janet,Leverling
+10430,ERNSH,4,1997-01-30,1997-02-13,1997-02-03,1,458.78,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Margaret,Peacock
+10431,BOTTM,4,1997-01-30,1997-02-13,1997-02-07,2,44.17,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Margaret,Peacock
+10432,SPLIR,3,1997-01-31,1997-02-14,1997-02-07,2,4.34,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,True,Split Rail Beer & Ale,Lander,USA,Janet,Leverling
+10433,PRINI,3,1997-02-03,1997-03-03,1997-03-04,3,73.83,Princesa Isabel Vinhos,Estrada da sa de n. 58,Lisboa,,1756,Portugal,True,Princesa Isabel Vinhos,Lisboa,Portugal,Janet,Leverling
+10434,FOLKO,3,1997-02-03,1997-03-03,1997-02-13,2,17.92,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Janet,Leverling
+10435,CONSH,8,1997-02-04,1997-03-18,1997-02-07,2,9.21,Consolidated Holdings,Berkeley Gardens 12  Brewery,London,,WX1 6LT,UK,True,Consolidated Holdings,London,UK,Laura,Callahan
+10436,BLONP,3,1997-02-05,1997-03-05,1997-02-11,2,156.66,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Janet,Leverling
+10437,WARTH,8,1997-02-05,1997-03-05,1997-02-12,1,19.97,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Laura,Callahan
+10438,TOMSP,3,1997-02-06,1997-03-06,1997-02-14,2,8.24,Toms Spezialit ten,Luisenstr. 48,M nster,,44087,Germany,True,Toms Spezialit ten,M nster,Germany,Janet,Leverling
+10439,MEREP,6,1997-02-07,1997-03-07,1997-02-10,3,4.07,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Michael,Suyama
+10440,SAVEA,4,1997-02-10,1997-03-10,1997-02-28,2,86.53,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Margaret,Peacock
+10441,OLDWO,3,1997-02-10,1997-03-24,1997-03-14,2,73.02,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Janet,Leverling
+10442,ERNSH,3,1997-02-11,1997-03-11,1997-02-18,2,47.94,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Janet,Leverling
+10443,REGGC,8,1997-02-12,1997-03-12,1997-02-14,1,13.95,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Laura,Callahan
+10444,BERGS,3,1997-02-12,1997-03-12,1997-02-21,3,3.5,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Janet,Leverling
+10445,BERGS,3,1997-02-13,1997-03-13,1997-02-20,1,9.3,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Janet,Leverling
+10446,TOMSP,6,1997-02-14,1997-03-14,1997-02-19,1,14.68,Toms Spezialit ten,Luisenstr. 48,M nster,,44087,Germany,True,Toms Spezialit ten,M nster,Germany,Michael,Suyama
+10447,RICAR,4,1997-02-14,1997-03-14,1997-03-07,2,68.66,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Margaret,Peacock
+10448,RANCH,4,1997-02-17,1997-03-17,1997-02-24,2,38.82,Rancho grande,Av. del Libertador 900,Buenos Aires,,1010,Argentina,True,Rancho grande,Buenos Aires,Argentina,Margaret,Peacock
+10449,BLONP,3,1997-02-18,1997-03-18,1997-02-27,2,53.3,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Janet,Leverling
+10450,VICTE,8,1997-02-19,1997-03-19,1997-03-11,2,7.23,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Laura,Callahan
+10451,QUICK,4,1997-02-19,1997-03-05,1997-03-12,3,189.09,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Margaret,Peacock
+10452,SAVEA,8,1997-02-20,1997-03-20,1997-02-26,1,140.26,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Laura,Callahan
+10453,AROUT,1,1997-02-21,1997-03-21,1997-02-26,2,25.36,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Nancy,Davolio
+10454,LAMAI,4,1997-02-21,1997-03-21,1997-02-25,3,2.74,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Margaret,Peacock
+10455,WARTH,8,1997-02-24,1997-04-07,1997-03-03,2,180.45,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Laura,Callahan
+10456,KOENE,8,1997-02-25,1997-04-08,1997-02-28,2,8.12,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Laura,Callahan
+10457,KOENE,2,1997-02-25,1997-03-25,1997-03-03,1,11.57,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Andrew,Fuller
+10458,SUPRD,7,1997-02-26,1997-03-26,1997-03-04,3,147.06,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Robert,King
+10459,VICTE,4,1997-02-27,1997-03-27,1997-02-28,2,25.09,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Margaret,Peacock
+10460,FOLKO,8,1997-02-28,1997-03-28,1997-03-03,1,16.27,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Laura,Callahan
+10461,LILAS,1,1997-02-28,1997-03-28,1997-03-05,3,148.61,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Nancy,Davolio
+10462,CONSH,2,1997-03-03,1997-03-31,1997-03-18,1,6.17,Consolidated Holdings,Berkeley Gardens 12  Brewery,London,,WX1 6LT,UK,True,Consolidated Holdings,London,UK,Andrew,Fuller
+10463,SUPRD,5,1997-03-04,1997-04-01,1997-03-06,3,14.78,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Steven,Buchanan
+10464,FURIB,4,1997-03-04,1997-04-01,1997-03-14,2,89.0,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,,1675,Portugal,True,Furia Bacalhau e Frutos do Mar,Lisboa,Portugal,Margaret,Peacock
+10465,VAFFE,1,1997-03-05,1997-04-02,1997-03-14,3,145.04,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Nancy,Davolio
+10466,COMMI,4,1997-03-06,1997-04-03,1997-03-13,1,11.93,Com rcio Mineiro,"Av. dos Lus adas, 23",Sao Paulo,SP,05432-043,Brazil,True,Com rcio Mineiro,Sao Paulo,Brazil,Margaret,Peacock
+10467,MAGAA,8,1997-03-06,1997-04-03,1997-03-11,2,4.93,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Laura,Callahan
+10468,KOENE,3,1997-03-07,1997-04-04,1997-03-12,3,44.12,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Janet,Leverling
+10469,WHITC,1,1997-03-10,1997-04-07,1997-03-14,1,60.18,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Nancy,Davolio
+10470,BONAP,4,1997-03-11,1997-04-08,1997-03-14,2,64.56,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Margaret,Peacock
+10471,BSBEV,2,1997-03-11,1997-04-08,1997-03-18,3,45.59,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Andrew,Fuller
+10472,SEVES,8,1997-03-12,1997-04-09,1997-03-19,1,4.2,Seven Seas Imports,90 Wadhurst Rd.,London,,OX15 4NB,UK,True,Seven Seas Imports,London,UK,Laura,Callahan
+10473,ISLAT,1,1997-03-13,1997-03-27,1997-03-21,3,16.37,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Nancy,Davolio
+10474,PERIC,5,1997-03-13,1997-04-10,1997-03-21,2,83.49,Pericles Comidas cl sicas,Calle Dr. Jorge Cash 321,M xico D.F.,,05033,Mexico,True,Pericles Comidas cl sicas,M xico D.F.,Mexico,Steven,Buchanan
+10475,SUPRD,9,1997-03-14,1997-04-11,1997-04-04,1,68.52,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Anne,Dodsworth
+10476,HILAA,8,1997-03-17,1997-04-14,1997-03-24,3,4.41,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Laura,Callahan
+10477,PRINI,5,1997-03-17,1997-04-14,1997-03-25,2,13.02,Princesa Isabel Vinhos,Estrada da sa de n. 58,Lisboa,,1756,Portugal,True,Princesa Isabel Vinhos,Lisboa,Portugal,Steven,Buchanan
+10478,VICTE,2,1997-03-18,1997-04-01,1997-03-26,3,4.81,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Andrew,Fuller
+10479,RATTC,3,1997-03-19,1997-04-16,1997-03-21,3,708.95,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Janet,Leverling
+10480,FOLIG,6,1997-03-20,1997-04-17,1997-03-24,2,1.35,Folies gourmandes,"184, chauss e de Tournai",Lille,,59000,France,True,Folies gourmandes,Lille,France,Michael,Suyama
+10481,RICAR,8,1997-03-20,1997-04-17,1997-03-25,2,64.33,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Laura,Callahan
+10482,LAZYK,1,1997-03-21,1997-04-18,1997-04-10,3,7.48,Lazy K Kountry Store,12 Orchestra Terrace,Walla Walla,WA,99362,USA,True,Lazy K Kountry Store,Walla Walla,USA,Nancy,Davolio
+10483,WHITC,7,1997-03-24,1997-04-21,1997-04-25,2,15.28,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Robert,King
+10484,BSBEV,3,1997-03-24,1997-04-21,1997-04-01,3,6.88,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Janet,Leverling
+10485,LINOD,4,1997-03-25,1997-04-08,1997-03-31,2,64.45,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Margaret,Peacock
+10486,HILAA,1,1997-03-26,1997-04-23,1997-04-02,2,30.53,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Nancy,Davolio
+10487,QUEEN,2,1997-03-26,1997-04-23,1997-03-28,2,71.07,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Andrew,Fuller
+10488,FRANK,8,1997-03-27,1997-04-24,1997-04-02,2,4.93,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Laura,Callahan
+10489,PICCO,6,1997-03-28,1997-04-25,1997-04-09,2,5.29,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Michael,Suyama
+10490,HILAA,7,1997-03-31,1997-04-28,1997-04-03,2,210.19,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Robert,King
+10491,FURIB,8,1997-03-31,1997-04-28,1997-04-08,3,16.96,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,,1675,Portugal,True,Furia Bacalhau e Frutos do Mar,Lisboa,Portugal,Laura,Callahan
+10492,BOTTM,3,1997-04-01,1997-04-29,1997-04-11,1,62.89,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Janet,Leverling
+10493,LAMAI,4,1997-04-02,1997-04-30,1997-04-10,3,10.64,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Margaret,Peacock
+10494,COMMI,4,1997-04-02,1997-04-30,1997-04-09,2,65.99,Com rcio Mineiro,"Av. dos Lus adas, 23",Sao Paulo,SP,05432-043,Brazil,True,Com rcio Mineiro,Sao Paulo,Brazil,Margaret,Peacock
+10495,LAUGB,3,1997-04-03,1997-05-01,1997-04-11,3,4.65,Laughing Bacchus Wine Cellars,2319 Elm St.,Vancouver,BC,V3F 2K1,Canada,True,Laughing Bacchus Wine Cellars,Vancouver,Canada,Janet,Leverling
+10496,TRADH,7,1997-04-04,1997-05-02,1997-04-07,2,46.77,Tradi ao Hipermercados,"Av. In s de Castro, 414",Sao Paulo,SP,05634-030,Brazil,True,Tradi  o Hipermercados,Sao Paulo,Brazil,Robert,King
+10497,LEHMS,7,1997-04-04,1997-05-02,1997-04-07,1,36.21,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Robert,King
+10498,HILAA,8,1997-04-07,1997-05-05,1997-04-11,2,29.75,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Laura,Callahan
+10499,LILAS,4,1997-04-08,1997-05-06,1997-04-16,2,102.02,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Margaret,Peacock
+10500,LAMAI,6,1997-04-09,1997-05-07,1997-04-17,1,42.68,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Michael,Suyama
+10501,BLAUS,9,1997-04-09,1997-05-07,1997-04-16,3,8.85,Blauer See Delikatessen,Forsterstr. 57,Mannheim,,68306,Germany,True,Blauer See Delikatessen,Mannheim,Germany,Anne,Dodsworth
+10502,PERIC,2,1997-04-10,1997-05-08,1997-04-29,1,69.32,Pericles Comidas cl sicas,Calle Dr. Jorge Cash 321,M xico D.F.,,05033,Mexico,True,Pericles Comidas cl sicas,M xico D.F.,Mexico,Andrew,Fuller
+10503,HUNGO,6,1997-04-11,1997-05-09,1997-04-16,2,16.74,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Michael,Suyama
+10504,WHITC,4,1997-04-11,1997-05-09,1997-04-18,3,59.13,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Margaret,Peacock
+10505,MEREP,3,1997-04-14,1997-05-12,1997-04-21,3,7.13,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Janet,Leverling
+10506,KOENE,9,1997-04-15,1997-05-13,1997-05-02,2,21.19,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Anne,Dodsworth
+10507,ANTON,7,1997-04-15,1997-05-13,1997-04-22,1,47.45,Antonio Moreno Taquer a,Mataderos  2312,M xico D.F.,,05023,Mexico,True,Antonio Moreno Taquer a,M xico D.F.,Mexico,Robert,King
+10508,OTTIK,1,1997-04-16,1997-05-14,1997-05-13,2,4.99,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Nancy,Davolio
+10509,BLAUS,4,1997-04-17,1997-05-15,1997-04-29,1,0.15,Blauer See Delikatessen,Forsterstr. 57,Mannheim,,68306,Germany,True,Blauer See Delikatessen,Mannheim,Germany,Margaret,Peacock
+10510,SAVEA,6,1997-04-18,1997-05-16,1997-04-28,3,367.63,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Michael,Suyama
+10511,BONAP,4,1997-04-18,1997-05-16,1997-04-21,3,350.64,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Margaret,Peacock
+10512,FAMIA,7,1997-04-21,1997-05-19,1997-04-24,2,3.53,Familia Arquibaldo,"Rua Or s, 92",Sao Paulo,SP,05442-030,Brazil,True,Familia Arquibaldo,Sao Paulo,Brazil,Robert,King
+10513,WANDK,7,1997-04-22,1997-06-03,1997-04-28,1,105.65,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Robert,King
+10514,ERNSH,3,1997-04-22,1997-05-20,1997-05-16,2,789.95,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Janet,Leverling
+10515,QUICK,2,1997-04-23,1997-05-07,1997-05-23,1,204.47,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Andrew,Fuller
+10516,HUNGO,2,1997-04-24,1997-05-22,1997-05-01,3,62.78,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Andrew,Fuller
+10517,NORTS,3,1997-04-24,1997-05-22,1997-04-29,3,32.07,North/South,South House 300 Queensbridge,London,,SW7 1RZ,UK,True,North/South,London,UK,Janet,Leverling
+10518,TORTU,4,1997-04-25,1997-05-09,1997-05-05,2,218.15,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Margaret,Peacock
+10519,CHOPS,6,1997-04-28,1997-05-26,1997-05-01,3,91.76,Chop-suey Chinese,Hauptstr. 31,Bern,,3012,Switzerland,True,Chop-suey Chinese,Bern,Switzerland,Michael,Suyama
+10520,SANTG,7,1997-04-29,1997-05-27,1997-05-01,1,13.37,Sant  Gourmet,Erling Skakkes gate 78,Stavern,,4110,Norway,True,Sant  Gourmet,Stavern,Norway,Robert,King
+10521,CACTU,8,1997-04-29,1997-05-27,1997-05-02,2,17.22,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,,1010,Argentina,True,Cactus Comidas para llevar,Buenos Aires,Argentina,Laura,Callahan
+10522,LEHMS,4,1997-04-30,1997-05-28,1997-05-06,1,45.33,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Margaret,Peacock
+10523,SEVES,7,1997-05-01,1997-05-29,1997-05-30,2,77.63,Seven Seas Imports,90 Wadhurst Rd.,London,,OX15 4NB,UK,True,Seven Seas Imports,London,UK,Robert,King
+10524,BERGS,1,1997-05-01,1997-05-29,1997-05-07,2,244.79,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Nancy,Davolio
+10525,BONAP,1,1997-05-02,1997-05-30,1997-05-23,2,11.06,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Nancy,Davolio
+10526,WARTH,4,1997-05-05,1997-06-02,1997-05-15,2,58.59,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Margaret,Peacock
+10527,QUICK,7,1997-05-05,1997-06-02,1997-05-07,1,41.9,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Robert,King
+10528,GREAL,6,1997-05-06,1997-05-20,1997-05-09,2,3.35,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,True,Great Lakes Food Market,Eugene,USA,Michael,Suyama
+10529,MAISD,5,1997-05-07,1997-06-04,1997-05-09,2,66.69,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,,B-1180,Belgium,True,Maison Dewey,Bruxelles,Belgium,Steven,Buchanan
+10530,PICCO,3,1997-05-08,1997-06-05,1997-05-12,2,339.22,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Janet,Leverling
+10531,OCEAN,7,1997-05-08,1997-06-05,1997-05-19,1,8.12,Oc ano Atl ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,,1010,Argentina,True,Oc ano Atl ntico Ltda.,Buenos Aires,Argentina,Robert,King
+10532,EASTC,7,1997-05-09,1997-06-06,1997-05-12,3,74.46,Eastern Connection,35 King George,London,,WX3 6FW,UK,True,Eastern Connection,London,UK,Robert,King
+10533,FOLKO,8,1997-05-12,1997-06-09,1997-05-22,1,188.04,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Laura,Callahan
+10534,LEHMS,8,1997-05-12,1997-06-09,1997-05-14,2,27.94,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Laura,Callahan
+10535,ANTON,4,1997-05-13,1997-06-10,1997-05-21,1,15.64,Antonio Moreno Taquer a,Mataderos  2312,M xico D.F.,,05023,Mexico,True,Antonio Moreno Taquer a,M xico D.F.,Mexico,Margaret,Peacock
+10536,LEHMS,3,1997-05-14,1997-06-11,1997-06-06,2,58.88,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Janet,Leverling
+10537,RICSU,1,1997-05-14,1997-05-28,1997-05-19,1,78.85,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,True,Richter Supermarkt,Gen ve,Switzerland,Nancy,Davolio
+10538,BSBEV,9,1997-05-15,1997-06-12,1997-05-16,3,4.87,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Anne,Dodsworth
+10539,BSBEV,6,1997-05-16,1997-06-13,1997-05-23,3,12.36,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Michael,Suyama
+10540,QUICK,3,1997-05-19,1997-06-16,1997-06-13,3,1007.64,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Janet,Leverling
+10541,HANAR,2,1997-05-19,1997-06-16,1997-05-29,1,68.65,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Andrew,Fuller
+10542,KOENE,1,1997-05-20,1997-06-17,1997-05-26,3,10.95,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Nancy,Davolio
+10543,LILAS,8,1997-05-21,1997-06-18,1997-05-23,2,48.17,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Laura,Callahan
+10544,LONEP,4,1997-05-21,1997-06-18,1997-05-30,1,24.91,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,True,Lonesome Pine Restaurant,Portland,USA,Margaret,Peacock
+10545,LAZYK,8,1997-05-22,1997-06-19,1997-06-26,2,11.92,Lazy K Kountry Store,12 Orchestra Terrace,Walla Walla,WA,99362,USA,True,Lazy K Kountry Store,Walla Walla,USA,Laura,Callahan
+10546,VICTE,1,1997-05-23,1997-06-20,1997-05-27,3,194.72,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Nancy,Davolio
+10547,SEVES,3,1997-05-23,1997-06-20,1997-06-02,2,178.43,Seven Seas Imports,90 Wadhurst Rd.,London,,OX15 4NB,UK,True,Seven Seas Imports,London,UK,Janet,Leverling
+10548,TOMSP,3,1997-05-26,1997-06-23,1997-06-02,2,1.43,Toms Spezialit ten,Luisenstr. 48,M nster,,44087,Germany,True,Toms Spezialit ten,M nster,Germany,Janet,Leverling
+10549,QUICK,5,1997-05-27,1997-06-10,1997-05-30,1,171.24,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Steven,Buchanan
+10550,GODOS,7,1997-05-28,1997-06-25,1997-06-06,3,4.32,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Robert,King
+10551,FURIB,4,1997-05-28,1997-07-09,1997-06-06,3,72.95,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,,1675,Portugal,True,Furia Bacalhau e Frutos do Mar,Lisboa,Portugal,Margaret,Peacock
+10552,HILAA,2,1997-05-29,1997-06-26,1997-06-05,1,83.22,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Andrew,Fuller
+10553,WARTH,2,1997-05-30,1997-06-27,1997-06-03,2,149.49,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Andrew,Fuller
+10554,OTTIK,4,1997-05-30,1997-06-27,1997-06-05,3,120.97,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Margaret,Peacock
+10555,SAVEA,6,1997-06-02,1997-06-30,1997-06-04,3,252.49,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Michael,Suyama
+10556,SIMOB,2,1997-06-03,1997-07-15,1997-06-13,1,9.8,Simons bistro,Vinb ltet 34,Kobenhavn,,1734,Denmark,True,Simons bistro,Kobenhavn,Denmark,Andrew,Fuller
+10557,LEHMS,9,1997-06-03,1997-06-17,1997-06-06,2,96.72,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Anne,Dodsworth
+10558,AROUT,1,1997-06-04,1997-07-02,1997-06-10,2,72.97,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Nancy,Davolio
+10559,BLONP,6,1997-06-05,1997-07-03,1997-06-13,1,8.05,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Michael,Suyama
+10560,FRANK,8,1997-06-06,1997-07-04,1997-06-09,1,36.65,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Laura,Callahan
+10561,FOLKO,2,1997-06-06,1997-07-04,1997-06-09,2,242.21,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Andrew,Fuller
+10562,REGGC,1,1997-06-09,1997-07-07,1997-06-12,1,22.95,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Nancy,Davolio
+10563,RICAR,2,1997-06-10,1997-07-22,1997-06-24,2,60.43,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Andrew,Fuller
+10564,RATTC,4,1997-06-10,1997-07-08,1997-06-16,3,13.75,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Margaret,Peacock
+10565,MEREP,8,1997-06-11,1997-07-09,1997-06-18,2,7.15,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Laura,Callahan
+10566,BLONP,9,1997-06-12,1997-07-10,1997-06-18,1,88.4,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Anne,Dodsworth
+10567,HUNGO,1,1997-06-12,1997-07-10,1997-06-17,1,33.97,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Nancy,Davolio
+10568,GALED,3,1997-06-13,1997-07-11,1997-07-09,3,6.54,Galer a del gastron mo,"Rambla de Catalu a, 23",Barcelona,,8022,Spain,True,Galer a del gastr nomo,Barcelona,Spain,Janet,Leverling
+10569,RATTC,5,1997-06-16,1997-07-14,1997-07-11,1,58.98,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Steven,Buchanan
+10570,MEREP,3,1997-06-17,1997-07-15,1997-06-19,3,188.99,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Janet,Leverling
+10571,ERNSH,8,1997-06-17,1997-07-29,1997-07-04,3,26.06,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Laura,Callahan
+10572,BERGS,3,1997-06-18,1997-07-16,1997-06-25,2,116.43,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Janet,Leverling
+10573,ANTON,7,1997-06-19,1997-07-17,1997-06-20,3,84.84,Antonio Moreno Taquer a,Mataderos  2312,M xico D.F.,,05023,Mexico,True,Antonio Moreno Taquer a,M xico D.F.,Mexico,Robert,King
+10574,TRAIH,4,1997-06-19,1997-07-17,1997-06-30,2,37.6,Trail's Head Gourmet Provisioners,722 DaVinci Blvd.,Kirkland,WA,98034,USA,True,Trail's Head Gourmet Provisioners,Kirkland,USA,Margaret,Peacock
+10575,MORGK,5,1997-06-20,1997-07-04,1997-06-30,1,127.34,Morgenstern Gesundkost,Heerstr. 22,Leipzig,,04179,Germany,True,Morgenstern Gesundkost,Leipzig,Germany,Steven,Buchanan
+10576,TORTU,3,1997-06-23,1997-07-07,1997-06-30,3,18.56,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Janet,Leverling
+10577,TRAIH,9,1997-06-23,1997-08-04,1997-06-30,2,25.41,Trail's Head Gourmet Provisioners,722 DaVinci Blvd.,Kirkland,WA,98034,USA,True,Trail's Head Gourmet Provisioners,Kirkland,USA,Anne,Dodsworth
+10578,BSBEV,4,1997-06-24,1997-07-22,1997-07-25,3,29.6,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Margaret,Peacock
+10579,LETSS,1,1997-06-25,1997-07-23,1997-07-04,2,13.73,Let's Stop N Shop,87 Polk St. Suite 5,San Francisco,CA,94117,USA,True,Let's Stop N Shop,San Francisco,USA,Nancy,Davolio
+10580,OTTIK,4,1997-06-26,1997-07-24,1997-07-01,3,75.89,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Margaret,Peacock
+10581,FAMIA,3,1997-06-26,1997-07-24,1997-07-02,1,3.01,Familia Arquibaldo,"Rua Or s, 92",Sao Paulo,SP,05442-030,Brazil,True,Familia Arquibaldo,Sao Paulo,Brazil,Janet,Leverling
+10582,BLAUS,3,1997-06-27,1997-07-25,1997-07-14,2,27.71,Blauer See Delikatessen,Forsterstr. 57,Mannheim,,68306,Germany,True,Blauer See Delikatessen,Mannheim,Germany,Janet,Leverling
+10583,WARTH,2,1997-06-30,1997-07-28,1997-07-04,2,7.28,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Andrew,Fuller
+10584,BLONP,4,1997-06-30,1997-07-28,1997-07-04,1,59.14,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Margaret,Peacock
+10585,WELLI,7,1997-07-01,1997-07-29,1997-07-10,1,13.41,Wellington Importadora,"Rua do Mercado, 12",Resende,SP,08737-363,Brazil,True,Wellington Importadora,Resende,Brazil,Robert,King
+10586,REGGC,9,1997-07-02,1997-07-30,1997-07-09,1,0.48,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Anne,Dodsworth
+10587,QUEDE,1,1997-07-02,1997-07-30,1997-07-09,1,62.52,Que Del cia,"Rua da Panificadora, 12",Rio de Janeiro,RJ,02389-673,Brazil,True,Que Del cia,Rio de Janeiro,Brazil,Nancy,Davolio
+10588,QUICK,2,1997-07-03,1997-07-31,1997-07-10,3,194.67,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Andrew,Fuller
+10589,GREAL,8,1997-07-04,1997-08-01,1997-07-14,2,4.42,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,True,Great Lakes Food Market,Eugene,USA,Laura,Callahan
+10590,MEREP,4,1997-07-07,1997-08-04,1997-07-14,3,44.77,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Margaret,Peacock
+10591,VAFFE,1,1997-07-07,1997-07-21,1997-07-16,1,55.92,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Nancy,Davolio
+10592,LEHMS,3,1997-07-08,1997-08-05,1997-07-16,1,32.1,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Janet,Leverling
+10593,LEHMS,7,1997-07-09,1997-08-06,1997-08-13,2,174.2,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Robert,King
+10594,OLDWO,3,1997-07-09,1997-08-06,1997-07-16,2,5.24,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Janet,Leverling
+10595,ERNSH,2,1997-07-10,1997-08-07,1997-07-14,1,96.78,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Andrew,Fuller
+10596,WHITC,8,1997-07-11,1997-08-08,1997-08-12,1,16.34,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Laura,Callahan
+10597,PICCO,7,1997-07-11,1997-08-08,1997-07-18,3,35.12,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Robert,King
+10598,RATTC,1,1997-07-14,1997-08-11,1997-07-18,3,44.42,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Nancy,Davolio
+10599,BSBEV,6,1997-07-15,1997-08-26,1997-07-21,3,29.98,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Michael,Suyama
+10600,HUNGC,4,1997-07-16,1997-08-13,1997-07-21,1,45.13,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,True,Hungry Coyote Import Store,Elgin,USA,Margaret,Peacock
+10601,HILAA,7,1997-07-16,1997-08-27,1997-07-22,1,58.3,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Robert,King
+10602,VAFFE,8,1997-07-17,1997-08-14,1997-07-22,2,2.92,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Laura,Callahan
+10603,SAVEA,8,1997-07-18,1997-08-15,1997-08-08,2,48.77,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Laura,Callahan
+10604,FURIB,1,1997-07-18,1997-08-15,1997-07-29,1,7.46,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,,1675,Portugal,True,Furia Bacalhau e Frutos do Mar,Lisboa,Portugal,Nancy,Davolio
+10605,MEREP,1,1997-07-21,1997-08-18,1997-07-29,2,379.13,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Nancy,Davolio
+10606,TRADH,4,1997-07-22,1997-08-19,1997-07-31,3,79.4,Tradi ao Hipermercados,"Av. In s de Castro, 414",Sao Paulo,SP,05634-030,Brazil,True,Tradi  o Hipermercados,Sao Paulo,Brazil,Margaret,Peacock
+10607,SAVEA,5,1997-07-22,1997-08-19,1997-07-25,1,200.24,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Steven,Buchanan
+10608,TOMSP,4,1997-07-23,1997-08-20,1997-08-01,2,27.79,Toms Spezialit ten,Luisenstr. 48,M nster,,44087,Germany,True,Toms Spezialit ten,M nster,Germany,Margaret,Peacock
+10609,DUMON,7,1997-07-24,1997-08-21,1997-07-30,2,1.85,Du monde entier,"67, rue des Cinquante Otages",Nantes,,44000,France,True,Du monde entier,Nantes,France,Robert,King
+10610,LAMAI,8,1997-07-25,1997-08-22,1997-08-06,1,26.78,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Laura,Callahan
+10611,WOLZA,6,1997-07-25,1997-08-22,1997-08-01,2,80.65,Wolski Zajazd,ul. Filtrowa 68,Warszawa,,01-012,Poland,True,Wolski  Zajazd,Warszawa,Poland,Michael,Suyama
+10612,SAVEA,1,1997-07-28,1997-08-25,1997-08-01,2,544.08,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Nancy,Davolio
+10613,HILAA,4,1997-07-29,1997-08-26,1997-08-01,2,8.11,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Margaret,Peacock
+10614,BLAUS,8,1997-07-29,1997-08-26,1997-08-01,3,1.93,Blauer See Delikatessen,Forsterstr. 57,Mannheim,,68306,Germany,True,Blauer See Delikatessen,Mannheim,Germany,Laura,Callahan
+10615,WILMK,2,1997-07-30,1997-08-27,1997-08-06,3,0.75,Wilman Kala,Keskuskatu 45,Helsinki,,21240,Finland,True,Wilman Kala,Helsinki,Finland,Andrew,Fuller
+10616,GREAL,1,1997-07-31,1997-08-28,1997-08-05,2,116.53,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,True,Great Lakes Food Market,Eugene,USA,Nancy,Davolio
+10617,GREAL,4,1997-07-31,1997-08-28,1997-08-04,2,18.53,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,True,Great Lakes Food Market,Eugene,USA,Margaret,Peacock
+10618,MEREP,1,1997-08-01,1997-09-12,1997-08-08,1,154.68,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Nancy,Davolio
+10619,MEREP,3,1997-08-04,1997-09-01,1997-08-07,3,91.05,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Janet,Leverling
+10620,LAUGB,2,1997-08-05,1997-09-02,1997-08-14,3,0.94,Laughing Bacchus Wine Cellars,2319 Elm St.,Vancouver,BC,V3F 2K1,Canada,True,Laughing Bacchus Wine Cellars,Vancouver,Canada,Andrew,Fuller
+10621,ISLAT,4,1997-08-05,1997-09-02,1997-08-11,2,23.73,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Margaret,Peacock
+10622,RICAR,4,1997-08-06,1997-09-03,1997-08-11,3,50.97,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Margaret,Peacock
+10623,FRANK,8,1997-08-07,1997-09-04,1997-08-12,2,97.18,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Laura,Callahan
+10624,THECR,4,1997-08-07,1997-09-04,1997-08-19,2,94.8,The Cracker Box,55 Grizzly Peak Rd.,Butte,MT,59801,USA,True,The Cracker Box,Butte,USA,Margaret,Peacock
+10625,ANATR,3,1997-08-08,1997-09-05,1997-08-14,1,43.9,Ana Trujillo Emparedados y helados,Avda. de la Constituci n 2222,M xico D.F.,,05021,Mexico,True,Ana Trujillo Emparedados y helados,M xico D.F.,Mexico,Janet,Leverling
+10626,BERGS,1,1997-08-11,1997-09-08,1997-08-20,2,138.69,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Nancy,Davolio
+10627,SAVEA,8,1997-08-11,1997-09-22,1997-08-21,3,107.46,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Laura,Callahan
+10628,BLONP,4,1997-08-12,1997-09-09,1997-08-20,3,30.36,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Margaret,Peacock
+10629,GODOS,4,1997-08-12,1997-09-09,1997-08-20,3,85.46,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Margaret,Peacock
+10630,KOENE,1,1997-08-13,1997-09-10,1997-08-19,2,32.35,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Nancy,Davolio
+10631,LAMAI,8,1997-08-14,1997-09-11,1997-08-15,1,0.87,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Laura,Callahan
+10632,WANDK,8,1997-08-14,1997-09-11,1997-08-19,1,41.38,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Laura,Callahan
+10633,ERNSH,7,1997-08-15,1997-09-12,1997-08-18,3,477.9,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Robert,King
+10634,FOLIG,4,1997-08-15,1997-09-12,1997-08-21,3,487.38,Folies gourmandes,"184, chauss e de Tournai",Lille,,59000,France,True,Folies gourmandes,Lille,France,Margaret,Peacock
+10635,MAGAA,8,1997-08-18,1997-09-15,1997-08-21,3,47.46,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Laura,Callahan
+10636,WARTH,4,1997-08-19,1997-09-16,1997-08-26,1,1.15,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Margaret,Peacock
+10637,QUEEN,6,1997-08-19,1997-09-16,1997-08-26,1,201.29,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Michael,Suyama
+10638,LINOD,3,1997-08-20,1997-09-17,1997-09-01,1,158.44,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Janet,Leverling
+10639,SANTG,7,1997-08-20,1997-09-17,1997-08-27,3,38.64,Sant  Gourmet,Erling Skakkes gate 78,Stavern,,4110,Norway,True,Sant  Gourmet,Stavern,Norway,Robert,King
+10640,WANDK,4,1997-08-21,1997-09-18,1997-08-28,1,23.55,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Margaret,Peacock
+10641,HILAA,4,1997-08-22,1997-09-19,1997-08-26,2,179.61,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Margaret,Peacock
+10642,SIMOB,7,1997-08-22,1997-09-19,1997-09-05,3,41.89,Simons bistro,Vinb ltet 34,Kobenhavn,,1734,Denmark,True,Simons bistro,Kobenhavn,Denmark,Robert,King
+10643,ALFKI,6,1997-08-25,1997-09-22,1997-09-02,1,29.46,Alfreds Futterkiste,Obere Str. 57,Berlin,,12209,Germany,True,Alfreds Futterkiste,Berlin,Germany,Michael,Suyama
+10644,WELLI,3,1997-08-25,1997-09-22,1997-09-01,2,0.14,Wellington Importadora,"Rua do Mercado, 12",Resende,SP,08737-363,Brazil,True,Wellington Importadora,Resende,Brazil,Janet,Leverling
+10645,HANAR,4,1997-08-26,1997-09-23,1997-09-02,1,12.41,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Margaret,Peacock
+10646,HUNGO,9,1997-08-27,1997-10-08,1997-09-03,3,142.33,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Anne,Dodsworth
+10647,QUEDE,4,1997-08-27,1997-09-10,1997-09-03,2,45.54,Que Del cia,"Rua da Panificadora, 12",Rio de Janeiro,RJ,02389-673,Brazil,True,Que Del cia,Rio de Janeiro,Brazil,Margaret,Peacock
+10648,RICAR,5,1997-08-28,1997-10-09,1997-09-09,2,14.25,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Steven,Buchanan
+10649,MAISD,5,1997-08-28,1997-09-25,1997-08-29,3,6.2,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,,B-1180,Belgium,True,Maison Dewey,Bruxelles,Belgium,Steven,Buchanan
+10650,FAMIA,5,1997-08-29,1997-09-26,1997-09-03,3,176.81,Familia Arquibaldo,"Rua Or s, 92",Sao Paulo,SP,05442-030,Brazil,True,Familia Arquibaldo,Sao Paulo,Brazil,Steven,Buchanan
+10651,WANDK,8,1997-09-01,1997-09-29,1997-09-11,2,20.6,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Laura,Callahan
+10652,GOURL,4,1997-09-01,1997-09-29,1997-09-08,2,7.14,Gourmet Lanchonetes,"Av. Brasil, 442",Campinas,SP,04876-786,Brazil,True,Gourmet Lanchonetes,Campinas,Brazil,Margaret,Peacock
+10653,FRANK,1,1997-09-02,1997-09-30,1997-09-19,1,93.25,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Nancy,Davolio
+10654,BERGS,5,1997-09-02,1997-09-30,1997-09-11,1,55.26,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Steven,Buchanan
+10655,REGGC,1,1997-09-03,1997-10-01,1997-09-11,2,4.41,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Nancy,Davolio
+10656,GREAL,6,1997-09-04,1997-10-02,1997-09-10,1,57.15,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,True,Great Lakes Food Market,Eugene,USA,Michael,Suyama
+10657,SAVEA,2,1997-09-04,1997-10-02,1997-09-15,2,352.69,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Andrew,Fuller
+10658,QUICK,4,1997-09-05,1997-10-03,1997-09-08,1,364.15,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Margaret,Peacock
+10659,QUEEN,7,1997-09-05,1997-10-03,1997-09-10,2,105.81,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Robert,King
+10660,HUNGC,8,1997-09-08,1997-10-06,1997-10-15,1,111.29,Hungry Coyote Import Store,City Center Plaza 516 Main St.,Elgin,OR,97827,USA,True,Hungry Coyote Import Store,Elgin,USA,Laura,Callahan
+10661,HUNGO,7,1997-09-09,1997-10-07,1997-09-15,3,17.55,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Robert,King
+10662,LONEP,3,1997-09-09,1997-10-07,1997-09-18,2,1.28,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,True,Lonesome Pine Restaurant,Portland,USA,Janet,Leverling
+10663,BONAP,2,1997-09-10,1997-09-24,1997-10-03,2,113.15,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Andrew,Fuller
+10664,FURIB,1,1997-09-10,1997-10-08,1997-09-19,3,1.27,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,,1675,Portugal,True,Furia Bacalhau e Frutos do Mar,Lisboa,Portugal,Nancy,Davolio
+10665,LONEP,1,1997-09-11,1997-10-09,1997-09-17,2,26.31,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,True,Lonesome Pine Restaurant,Portland,USA,Nancy,Davolio
+10666,RICSU,7,1997-09-12,1997-10-10,1997-09-22,2,232.42,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,True,Richter Supermarkt,Gen ve,Switzerland,Robert,King
+10667,ERNSH,7,1997-09-12,1997-10-10,1997-09-19,1,78.09,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Robert,King
+10668,WANDK,1,1997-09-15,1997-10-13,1997-09-23,2,47.22,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Nancy,Davolio
+10669,SIMOB,2,1997-09-15,1997-10-13,1997-09-22,1,24.39,Simons bistro,Vinb ltet 34,Kobenhavn,,1734,Denmark,True,Simons bistro,Kobenhavn,Denmark,Andrew,Fuller
+10670,FRANK,4,1997-09-16,1997-10-14,1997-09-18,1,203.48,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Margaret,Peacock
+10671,FRANR,1,1997-09-17,1997-10-15,1997-09-24,1,30.34,France restauration,"54, rue Royale",Nantes,,44000,France,True,France restauration,Nantes,France,Nancy,Davolio
+10672,BERGS,9,1997-09-17,1997-10-01,1997-09-26,2,95.75,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Anne,Dodsworth
+10673,WILMK,2,1997-09-18,1997-10-16,1997-09-19,1,22.76,Wilman Kala,Keskuskatu 45,Helsinki,,21240,Finland,True,Wilman Kala,Helsinki,Finland,Andrew,Fuller
+10674,ISLAT,4,1997-09-18,1997-10-16,1997-09-30,2,0.9,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Margaret,Peacock
+10675,FRANK,5,1997-09-19,1997-10-17,1997-09-23,2,31.85,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Steven,Buchanan
+10676,TORTU,2,1997-09-22,1997-10-20,1997-09-29,2,2.01,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Andrew,Fuller
+10677,ANTON,1,1997-09-22,1997-10-20,1997-09-26,3,4.03,Antonio Moreno Taquer a,Mataderos  2312,M xico D.F.,,05023,Mexico,True,Antonio Moreno Taquer a,M xico D.F.,Mexico,Nancy,Davolio
+10678,SAVEA,7,1997-09-23,1997-10-21,1997-10-16,3,388.98,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Robert,King
+10679,BLONP,8,1997-09-23,1997-10-21,1997-09-30,3,27.94,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Laura,Callahan
+10680,OLDWO,1,1997-09-24,1997-10-22,1997-09-26,1,26.61,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Nancy,Davolio
+10681,GREAL,3,1997-09-25,1997-10-23,1997-09-30,3,76.13,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,True,Great Lakes Food Market,Eugene,USA,Janet,Leverling
+10682,ANTON,3,1997-09-25,1997-10-23,1997-10-01,2,36.13,Antonio Moreno Taquer a,Mataderos  2312,M xico D.F.,,05023,Mexico,True,Antonio Moreno Taquer a,M xico D.F.,Mexico,Janet,Leverling
+10683,DUMON,2,1997-09-26,1997-10-24,1997-10-01,1,4.4,Du monde entier,"67, rue des Cinquante Otages",Nantes,,44000,France,True,Du monde entier,Nantes,France,Andrew,Fuller
+10684,OTTIK,3,1997-09-26,1997-10-24,1997-09-30,1,145.63,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Janet,Leverling
+10685,GOURL,4,1997-09-29,1997-10-13,1997-10-03,2,33.75,Gourmet Lanchonetes,"Av. Brasil, 442",Campinas,SP,04876-786,Brazil,True,Gourmet Lanchonetes,Campinas,Brazil,Margaret,Peacock
+10686,PICCO,2,1997-09-30,1997-10-28,1997-10-08,1,96.5,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Andrew,Fuller
+10687,HUNGO,9,1997-09-30,1997-10-28,1997-10-30,2,296.43,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Anne,Dodsworth
+10688,VAFFE,4,1997-10-01,1997-10-15,1997-10-07,2,299.09,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Margaret,Peacock
+10689,BERGS,1,1997-10-01,1997-10-29,1997-10-07,2,13.42,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Nancy,Davolio
+10690,HANAR,1,1997-10-02,1997-10-30,1997-10-03,1,15.8,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Nancy,Davolio
+10691,QUICK,2,1997-10-03,1997-11-14,1997-10-22,2,810.05,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Andrew,Fuller
+10692,ALFKI,4,1997-10-03,1997-10-31,1997-10-13,2,61.02,Alfred's Futterkiste,Obere Str. 57,Berlin,,12209,Germany,True,Alfreds Futterkiste,Berlin,Germany,Margaret,Peacock
+10693,WHITC,3,1997-10-06,1997-10-20,1997-10-10,3,139.34,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Janet,Leverling
+10694,QUICK,8,1997-10-06,1997-11-03,1997-10-09,3,398.36,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Laura,Callahan
+10695,WILMK,7,1997-10-07,1997-11-18,1997-10-14,1,16.72,Wilman Kala,Keskuskatu 45,Helsinki,,21240,Finland,True,Wilman Kala,Helsinki,Finland,Robert,King
+10696,WHITC,8,1997-10-08,1997-11-19,1997-10-14,3,102.55,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Laura,Callahan
+10697,LINOD,3,1997-10-08,1997-11-05,1997-10-14,1,45.52,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Janet,Leverling
+10698,ERNSH,4,1997-10-09,1997-11-06,1997-10-17,1,272.47,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Margaret,Peacock
+10699,MORGK,3,1997-10-09,1997-11-06,1997-10-13,3,0.58,Morgenstern Gesundkost,Heerstr. 22,Leipzig,,04179,Germany,True,Morgenstern Gesundkost,Leipzig,Germany,Janet,Leverling
+10700,SAVEA,3,1997-10-10,1997-11-07,1997-10-16,1,65.1,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Janet,Leverling
+10701,HUNGO,6,1997-10-13,1997-10-27,1997-10-15,3,220.31,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Michael,Suyama
+10702,ALFKI,4,1997-10-13,1997-11-24,1997-10-21,1,23.94,Alfred's Futterkiste,Obere Str. 57,Berlin,,12209,Germany,True,Alfreds Futterkiste,Berlin,Germany,Margaret,Peacock
+10703,FOLKO,6,1997-10-14,1997-11-11,1997-10-20,2,152.3,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Michael,Suyama
+10704,QUEEN,6,1997-10-14,1997-11-11,1997-11-07,1,4.78,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Michael,Suyama
+10705,HILAA,9,1997-10-15,1997-11-12,1997-11-18,2,3.52,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Anne,Dodsworth
+10706,OLDWO,8,1997-10-16,1997-11-13,1997-10-21,3,135.63,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Laura,Callahan
+10707,AROUT,4,1997-10-16,1997-10-30,1997-10-23,3,21.74,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Margaret,Peacock
+10708,THEBI,6,1997-10-17,1997-11-28,1997-11-05,2,2.96,The Big Cheese,89 Jefferson Way Suite 2,Portland,OR,97201,USA,True,The Big Cheese,Portland,USA,Michael,Suyama
+10709,GOURL,1,1997-10-17,1997-11-14,1997-11-20,3,210.8,Gourmet Lanchonetes,"Av. Brasil, 442",Campinas,SP,04876-786,Brazil,True,Gourmet Lanchonetes,Campinas,Brazil,Nancy,Davolio
+10710,FRANS,1,1997-10-20,1997-11-17,1997-10-23,1,4.98,Franchi S.p.A.,Via Monte Bianco 34,Torino,,10100,Italy,True,Franchi S.p.A.,Torino,Italy,Nancy,Davolio
+10711,SAVEA,5,1997-10-21,1997-12-02,1997-10-29,2,52.41,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Steven,Buchanan
+10712,HUNGO,3,1997-10-21,1997-11-18,1997-10-31,1,89.93,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Janet,Leverling
+10713,SAVEA,1,1997-10-22,1997-11-19,1997-10-24,1,167.05,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Nancy,Davolio
+10714,SAVEA,5,1997-10-22,1997-11-19,1997-10-27,3,24.49,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Steven,Buchanan
+10715,BONAP,3,1997-10-23,1997-11-06,1997-10-29,1,63.2,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Janet,Leverling
+10716,RANCH,4,1997-10-24,1997-11-21,1997-10-27,2,22.57,Rancho grande,Av. del Libertador 900,Buenos Aires,,1010,Argentina,True,Rancho grande,Buenos Aires,Argentina,Margaret,Peacock
+10717,FRANK,1,1997-10-24,1997-11-21,1997-10-29,2,59.25,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Nancy,Davolio
+10718,KOENE,1,1997-10-27,1997-11-24,1997-10-29,3,170.88,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Nancy,Davolio
+10719,LETSS,8,1997-10-27,1997-11-24,1997-11-05,2,51.44,Let's Stop N Shop,87 Polk St. Suite 5,San Francisco,CA,94117,USA,True,Let's Stop N Shop,San Francisco,USA,Laura,Callahan
+10720,QUEDE,8,1997-10-28,1997-11-11,1997-11-05,2,9.53,Que Del cia,"Rua da Panificadora, 12",Rio de Janeiro,RJ,02389-673,Brazil,True,Que Del cia,Rio de Janeiro,Brazil,Laura,Callahan
+10721,QUICK,5,1997-10-29,1997-11-26,1997-10-31,3,48.92,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Steven,Buchanan
+10722,SAVEA,8,1997-10-29,1997-12-10,1997-11-04,1,74.58,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Laura,Callahan
+10723,WHITC,3,1997-10-30,1997-11-27,1997-11-25,1,21.72,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Janet,Leverling
+10724,MEREP,8,1997-10-30,1997-12-11,1997-11-05,2,57.75,M re Paillarde,43 rue St. Laurent,Montr al,Qu bec,H1J 1C3,Canada,True,M re Paillarde,Montr al,Canada,Laura,Callahan
+10725,FAMIA,4,1997-10-31,1997-11-28,1997-11-05,3,10.83,Familia Arquibaldo,"Rua Or s, 92",Sao Paulo,SP,05442-030,Brazil,True,Familia Arquibaldo,Sao Paulo,Brazil,Margaret,Peacock
+10726,EASTC,4,1997-11-03,1997-11-17,1997-12-05,1,16.56,Eastern Connection,35 King George,London,,WX3 6FW,UK,True,Eastern Connection,London,UK,Margaret,Peacock
+10727,REGGC,2,1997-11-03,1997-12-01,1997-12-05,1,89.9,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Andrew,Fuller
+10728,QUEEN,4,1997-11-04,1997-12-02,1997-11-11,2,58.33,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Margaret,Peacock
+10729,LINOD,8,1997-11-04,1997-12-16,1997-11-14,3,141.06,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Laura,Callahan
+10730,BONAP,5,1997-11-05,1997-12-03,1997-11-14,1,20.12,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Steven,Buchanan
+10731,CHOPS,7,1997-11-06,1997-12-04,1997-11-14,1,96.65,Chop-suey Chinese,Hauptstr. 31,Bern,,3012,Switzerland,True,Chop-suey Chinese,Bern,Switzerland,Robert,King
+10732,BONAP,3,1997-11-06,1997-12-04,1997-11-07,1,16.97,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Janet,Leverling
+10733,BERGS,1,1997-11-07,1997-12-05,1997-11-10,3,110.11,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Nancy,Davolio
+10734,GOURL,2,1997-11-07,1997-12-05,1997-11-12,3,1.63,Gourmet Lanchonetes,"Av. Brasil, 442",Campinas,SP,04876-786,Brazil,True,Gourmet Lanchonetes,Campinas,Brazil,Andrew,Fuller
+10735,LETSS,6,1997-11-10,1997-12-08,1997-11-21,2,45.97,Let's Stop N Shop,87 Polk St. Suite 5,San Francisco,CA,94117,USA,True,Let's Stop N Shop,San Francisco,USA,Michael,Suyama
+10736,HUNGO,9,1997-11-11,1997-12-09,1997-11-21,2,44.1,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Anne,Dodsworth
+10737,VINET,2,1997-11-11,1997-12-09,1997-11-18,2,7.79,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,,51100,France,True,Vins et alcools Chevalier,Reims,France,Andrew,Fuller
+10738,SPECD,2,1997-11-12,1997-12-10,1997-11-18,1,2.91,Sp cialit s du monde,"25, rue Lauriston",Paris,,75016,France,True,Sp cialit s du monde,Paris,France,Andrew,Fuller
+10739,VINET,3,1997-11-12,1997-12-10,1997-11-17,3,11.08,Vins et alcools Chevalier,59 rue de l'Abbaye,Reims,,51100,France,True,Vins et alcools Chevalier,Reims,France,Janet,Leverling
+10740,WHITC,4,1997-11-13,1997-12-11,1997-11-25,2,81.88,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Margaret,Peacock
+10741,AROUT,4,1997-11-14,1997-11-28,1997-11-18,3,10.96,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Margaret,Peacock
+10742,BOTTM,3,1997-11-14,1997-12-12,1997-11-18,3,243.73,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Janet,Leverling
+10743,AROUT,1,1997-11-17,1997-12-15,1997-11-21,2,23.72,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Nancy,Davolio
+10744,VAFFE,6,1997-11-17,1997-12-15,1997-11-24,1,69.19,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Michael,Suyama
+10745,QUICK,9,1997-11-18,1997-12-16,1997-11-27,1,3.52,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Anne,Dodsworth
+10746,CHOPS,1,1997-11-19,1997-12-17,1997-11-21,3,31.43,Chop-suey Chinese,Hauptstr. 31,Bern,,3012,Switzerland,True,Chop-suey Chinese,Bern,Switzerland,Nancy,Davolio
+10747,PICCO,6,1997-11-19,1997-12-17,1997-11-26,1,117.33,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Michael,Suyama
+10748,SAVEA,3,1997-11-20,1997-12-18,1997-11-28,1,232.55,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Janet,Leverling
+10749,ISLAT,4,1997-11-20,1997-12-18,1997-12-19,2,61.53,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Margaret,Peacock
+10750,WARTH,9,1997-11-21,1997-12-19,1997-11-24,1,79.3,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Anne,Dodsworth
+10751,RICSU,3,1997-11-24,1997-12-22,1997-12-03,3,130.79,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,True,Richter Supermarkt,Gen ve,Switzerland,Janet,Leverling
+10752,NORTS,2,1997-11-24,1997-12-22,1997-11-28,3,1.39,North/South,South House 300 Queensbridge,London,,SW7 1RZ,UK,True,North/South,London,UK,Andrew,Fuller
+10753,FRANS,3,1997-11-25,1997-12-23,1997-11-27,1,7.7,Franchi S.p.A.,Via Monte Bianco 34,Torino,,10100,Italy,True,Franchi S.p.A.,Torino,Italy,Janet,Leverling
+10754,MAGAA,6,1997-11-25,1997-12-23,1997-11-27,3,2.38,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Michael,Suyama
+10755,BONAP,4,1997-11-26,1997-12-24,1997-11-28,2,16.71,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Margaret,Peacock
+10756,SPLIR,8,1997-11-27,1997-12-25,1997-12-02,2,73.21,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,True,Split Rail Beer & Ale,Lander,USA,Laura,Callahan
+10757,SAVEA,6,1997-11-27,1997-12-25,1997-12-15,1,8.19,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Michael,Suyama
+10758,RICSU,3,1997-11-28,1997-12-26,1997-12-04,3,138.17,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,True,Richter Supermarkt,Gen ve,Switzerland,Janet,Leverling
+10759,ANATR,3,1997-11-28,1997-12-26,1997-12-12,3,11.99,Ana Trujillo Emparedados y helados,Avda. de la Constituci n 2222,M xico D.F.,,05021,Mexico,True,Ana Trujillo Emparedados y helados,M xico D.F.,Mexico,Janet,Leverling
+10760,MAISD,4,1997-12-01,1997-12-29,1997-12-10,1,155.64,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,,B-1180,Belgium,True,Maison Dewey,Bruxelles,Belgium,Margaret,Peacock
+10761,RATTC,5,1997-12-02,1997-12-30,1997-12-08,2,18.66,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Steven,Buchanan
+10762,FOLKO,3,1997-12-02,1997-12-30,1997-12-09,1,328.74,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Janet,Leverling
+10763,FOLIG,3,1997-12-03,1997-12-31,1997-12-08,3,37.35,Folies gourmandes,"184, chauss e de Tournai",Lille,,59000,France,True,Folies gourmandes,Lille,France,Janet,Leverling
+10764,ERNSH,6,1997-12-03,1997-12-31,1997-12-08,3,145.45,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Michael,Suyama
+10765,QUICK,3,1997-12-04,1998-01-01,1997-12-09,3,42.74,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Janet,Leverling
+10766,OTTIK,4,1997-12-05,1998-01-02,1997-12-09,1,157.55,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Margaret,Peacock
+10767,SUPRD,4,1997-12-05,1998-01-02,1997-12-15,3,1.59,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Margaret,Peacock
+10768,AROUT,3,1997-12-08,1998-01-05,1997-12-15,2,146.32,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Janet,Leverling
+10769,VAFFE,3,1997-12-08,1998-01-05,1997-12-12,1,65.06,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Janet,Leverling
+10770,HANAR,8,1997-12-09,1998-01-06,1997-12-17,3,5.32,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Laura,Callahan
+10771,ERNSH,9,1997-12-10,1998-01-07,1998-01-02,2,11.19,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Anne,Dodsworth
+10772,LEHMS,3,1997-12-10,1998-01-07,1997-12-19,2,91.28,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Janet,Leverling
+10773,ERNSH,1,1997-12-11,1998-01-08,1997-12-16,3,96.43,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Nancy,Davolio
+10774,FOLKO,4,1997-12-11,1997-12-25,1997-12-12,1,48.2,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Margaret,Peacock
+10775,THECR,7,1997-12-12,1998-01-09,1997-12-26,1,20.25,The Cracker Box,55 Grizzly Peak Rd.,Butte,MT,59801,USA,True,The Cracker Box,Butte,USA,Robert,King
+10776,ERNSH,1,1997-12-15,1998-01-12,1997-12-18,3,351.53,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Nancy,Davolio
+10777,GOURL,7,1997-12-15,1997-12-29,1998-01-21,2,3.01,Gourmet Lanchonetes,"Av. Brasil, 442",Campinas,SP,04876-786,Brazil,True,Gourmet Lanchonetes,Campinas,Brazil,Robert,King
+10778,BERGS,3,1997-12-16,1998-01-13,1997-12-24,1,6.79,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Janet,Leverling
+10779,MORGK,3,1997-12-16,1998-01-13,1998-01-14,2,58.13,Morgenstern Gesundkost,Heerstr. 22,Leipzig,,04179,Germany,True,Morgenstern Gesundkost,Leipzig,Germany,Janet,Leverling
+10780,LILAS,2,1997-12-16,1997-12-30,1997-12-25,1,42.13,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Andrew,Fuller
+10781,WARTH,2,1997-12-17,1998-01-14,1997-12-19,3,73.16,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Andrew,Fuller
+10782,CACTU,9,1997-12-17,1998-01-14,1997-12-22,3,1.1,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,,1010,Argentina,True,Cactus Comidas para llevar,Buenos Aires,Argentina,Anne,Dodsworth
+10783,HANAR,4,1997-12-18,1998-01-15,1997-12-19,2,124.98,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Margaret,Peacock
+10784,MAGAA,4,1997-12-18,1998-01-15,1997-12-22,3,70.09,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Margaret,Peacock
+10785,GROSR,1,1997-12-18,1998-01-15,1997-12-24,3,1.51,GROSELLA-Restaurante,5  Ave. Los Palos Grandes,Caracas,DF,1081,Venezuela,True,GROSELLA-Restaurante,Caracas,Venezuela,Nancy,Davolio
+10786,QUEEN,8,1997-12-19,1998-01-16,1997-12-23,1,110.87,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Laura,Callahan
+10787,LAMAI,2,1997-12-19,1998-01-02,1997-12-26,1,249.93,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Andrew,Fuller
+10788,QUICK,1,1997-12-22,1998-01-19,1998-01-19,2,42.7,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Nancy,Davolio
+10789,FOLIG,1,1997-12-22,1998-01-19,1997-12-31,2,100.6,Folies gourmandes,"184, chauss e de Tournai",Lille,,59000,France,True,Folies gourmandes,Lille,France,Nancy,Davolio
+10790,GOURL,6,1997-12-22,1998-01-19,1997-12-26,1,28.23,Gourmet Lanchonetes,"Av. Brasil, 442",Campinas,SP,04876-786,Brazil,True,Gourmet Lanchonetes,Campinas,Brazil,Michael,Suyama
+10791,FRANK,6,1997-12-23,1998-01-20,1998-01-01,2,16.85,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Michael,Suyama
+10792,WOLZA,1,1997-12-23,1998-01-20,1997-12-31,3,23.79,Wolski Zajazd,ul. Filtrowa 68,Warszawa,,01-012,Poland,True,Wolski  Zajazd,Warszawa,Poland,Nancy,Davolio
+10793,AROUT,3,1997-12-24,1998-01-21,1998-01-08,3,4.52,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Janet,Leverling
+10794,QUEDE,6,1997-12-24,1998-01-21,1998-01-02,1,21.49,Que Del cia,"Rua da Panificadora, 12",Rio de Janeiro,RJ,02389-673,Brazil,True,Que Del cia,Rio de Janeiro,Brazil,Michael,Suyama
+10795,ERNSH,8,1997-12-24,1998-01-21,1998-01-20,2,126.66,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Laura,Callahan
+10796,HILAA,3,1997-12-25,1998-01-22,1998-01-14,1,26.52,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Janet,Leverling
+10797,DRACD,7,1997-12-25,1998-01-22,1998-01-05,2,33.35,Drachenblut Delikatessen,Walserweg 21,Aachen,,52066,Germany,True,Drachenblut Delikatessen,Aachen,Germany,Robert,King
+10798,ISLAT,2,1997-12-26,1998-01-23,1998-01-05,1,2.33,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Andrew,Fuller
+10799,KOENE,9,1997-12-26,1998-02-06,1998-01-05,3,30.76,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Anne,Dodsworth
+10800,SEVES,1,1997-12-26,1998-01-23,1998-01-05,3,137.44,Seven Seas Imports,90 Wadhurst Rd.,London,,OX15 4NB,UK,True,Seven Seas Imports,London,UK,Nancy,Davolio
+10801,BOLID,4,1997-12-29,1998-01-26,1997-12-31,2,97.09,B lido Comidas preparadas,"C/ Araquil, 67",Madrid,,28023,Spain,True,B lido Comidas preparadas,Madrid,Spain,Margaret,Peacock
+10802,SIMOB,4,1997-12-29,1998-01-26,1998-01-02,2,257.26,Simons bistro,Vinb ltet 34,Kobenhavn,,1734,Denmark,True,Simons bistro,Kobenhavn,Denmark,Margaret,Peacock
+10803,WELLI,4,1997-12-30,1998-01-27,1998-01-06,1,55.23,Wellington Importadora,"Rua do Mercado, 12",Resende,SP,08737-363,Brazil,True,Wellington Importadora,Resende,Brazil,Margaret,Peacock
+10804,SEVES,6,1997-12-30,1998-01-27,1998-01-07,2,27.33,Seven Seas Imports,90 Wadhurst Rd.,London,,OX15 4NB,UK,True,Seven Seas Imports,London,UK,Michael,Suyama
+10805,THEBI,2,1997-12-30,1998-01-27,1998-01-09,3,237.34,The Big Cheese,89 Jefferson Way Suite 2,Portland,OR,97201,USA,True,The Big Cheese,Portland,USA,Andrew,Fuller
+10806,VICTE,3,1997-12-31,1998-01-28,1998-01-05,2,22.11,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Janet,Leverling
+10807,FRANS,4,1997-12-31,1998-01-28,1998-01-30,1,1.36,Franchi S.p.A.,Via Monte Bianco 34,Torino,,10100,Italy,True,Franchi S.p.A.,Torino,Italy,Margaret,Peacock
+10808,OLDWO,2,1998-01-01,1998-01-29,1998-01-09,3,45.53,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Andrew,Fuller
+10809,WELLI,7,1998-01-01,1998-01-29,1998-01-07,1,4.87,Wellington Importadora,"Rua do Mercado, 12",Resende,SP,08737-363,Brazil,True,Wellington Importadora,Resende,Brazil,Robert,King
+10810,LAUGB,2,1998-01-01,1998-01-29,1998-01-07,3,4.33,Laughing Bacchus Wine Cellars,2319 Elm St.,Vancouver,BC,V3F 2K1,Canada,True,Laughing Bacchus Wine Cellars,Vancouver,Canada,Andrew,Fuller
+10811,LINOD,8,1998-01-02,1998-01-30,1998-01-08,1,31.22,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Laura,Callahan
+10812,REGGC,5,1998-01-02,1998-01-30,1998-01-12,1,59.78,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Steven,Buchanan
+10813,RICAR,1,1998-01-05,1998-02-02,1998-01-09,1,47.38,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Nancy,Davolio
+10814,VICTE,3,1998-01-05,1998-02-02,1998-01-14,3,130.94,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Janet,Leverling
+10815,SAVEA,2,1998-01-05,1998-02-02,1998-01-14,3,14.62,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Andrew,Fuller
+10816,GREAL,4,1998-01-06,1998-02-03,1998-02-04,2,719.78,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,True,Great Lakes Food Market,Eugene,USA,Margaret,Peacock
+10817,KOENE,3,1998-01-06,1998-01-20,1998-01-13,2,306.07,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Janet,Leverling
+10818,MAGAA,7,1998-01-07,1998-02-04,1998-01-12,3,65.48,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Robert,King
+10819,CACTU,2,1998-01-07,1998-02-04,1998-01-16,3,19.76,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,,1010,Argentina,True,Cactus Comidas para llevar,Buenos Aires,Argentina,Andrew,Fuller
+10820,RATTC,3,1998-01-07,1998-02-04,1998-01-13,2,37.52,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Janet,Leverling
+10821,SPLIR,1,1998-01-08,1998-02-05,1998-01-15,1,36.68,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,True,Split Rail Beer & Ale,Lander,USA,Nancy,Davolio
+10822,TRAIH,6,1998-01-08,1998-02-05,1998-01-16,3,7.0,Trail's Head Gourmet Provisioners,722 DaVinci Blvd.,Kirkland,WA,98034,USA,True,Trail's Head Gourmet Provisioners,Kirkland,USA,Michael,Suyama
+10823,LILAS,5,1998-01-09,1998-02-06,1998-01-13,2,163.97,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Steven,Buchanan
+10824,FOLKO,8,1998-01-09,1998-02-06,1998-01-30,1,1.23,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Laura,Callahan
+10825,DRACD,1,1998-01-09,1998-02-06,1998-01-14,1,79.25,Drachenblut Delikatessen,Walserweg 21,Aachen,,52066,Germany,True,Drachenblut Delikatessen,Aachen,Germany,Nancy,Davolio
+10826,BLONP,6,1998-01-12,1998-02-09,1998-02-06,1,7.09,Blondel p re et fils,"24, place Kl ber",Strasbourg,,67000,France,True,Blondesddsl p re et fils,Strasbourg,France,Michael,Suyama
+10827,BONAP,1,1998-01-12,1998-01-26,1998-02-06,2,63.54,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Nancy,Davolio
+10828,RANCH,9,1998-01-13,1998-01-27,1998-02-04,1,90.85,Rancho grande,Av. del Libertador 900,Buenos Aires,,1010,Argentina,True,Rancho grande,Buenos Aires,Argentina,Anne,Dodsworth
+10829,ISLAT,9,1998-01-13,1998-02-10,1998-01-23,1,154.72,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Anne,Dodsworth
+10830,TRADH,4,1998-01-13,1998-02-24,1998-01-21,2,81.83,Tradi ao Hipermercados,"Av. In s de Castro, 414",Sao Paulo,SP,05634-030,Brazil,True,Tradi  o Hipermercados,Sao Paulo,Brazil,Margaret,Peacock
+10831,SANTG,3,1998-01-14,1998-02-11,1998-01-23,2,72.19,Sant  Gourmet,Erling Skakkes gate 78,Stavern,,4110,Norway,True,Sant  Gourmet,Stavern,Norway,Janet,Leverling
+10832,LAMAI,2,1998-01-14,1998-02-11,1998-01-19,2,43.26,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Andrew,Fuller
+10833,OTTIK,6,1998-01-15,1998-02-12,1998-01-23,2,71.49,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Michael,Suyama
+10834,TRADH,1,1998-01-15,1998-02-12,1998-01-19,3,29.78,Tradi ao Hipermercados,"Av. In s de Castro, 414",Sao Paulo,SP,05634-030,Brazil,True,Tradi  o Hipermercados,Sao Paulo,Brazil,Nancy,Davolio
+10835,ALFKI,1,1998-01-15,1998-02-12,1998-01-21,3,69.53,Alfred's Futterkiste,Obere Str. 57,Berlin,,12209,Germany,True,Alfreds Futterkiste,Berlin,Germany,Nancy,Davolio
+10836,ERNSH,7,1998-01-16,1998-02-13,1998-01-21,1,411.88,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Robert,King
+10837,BERGS,9,1998-01-16,1998-02-13,1998-01-23,3,13.32,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Anne,Dodsworth
+10838,LINOD,3,1998-01-19,1998-02-16,1998-01-23,3,59.28,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Janet,Leverling
+10839,TRADH,3,1998-01-19,1998-02-16,1998-01-22,3,35.43,Tradi ao Hipermercados,"Av. In s de Castro, 414",Sao Paulo,SP,05634-030,Brazil,True,Tradi  o Hipermercados,Sao Paulo,Brazil,Janet,Leverling
+10840,LINOD,4,1998-01-19,1998-03-02,1998-02-16,2,2.71,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Margaret,Peacock
+10841,SUPRD,5,1998-01-20,1998-02-17,1998-01-29,2,424.3,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Steven,Buchanan
+10842,TORTU,1,1998-01-20,1998-02-17,1998-01-29,3,54.42,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Nancy,Davolio
+10843,VICTE,4,1998-01-21,1998-02-18,1998-01-26,2,9.26,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Margaret,Peacock
+10844,PICCO,8,1998-01-21,1998-02-18,1998-01-26,2,25.22,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Laura,Callahan
+10845,QUICK,8,1998-01-21,1998-02-04,1998-01-30,1,212.98,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Laura,Callahan
+10846,SUPRD,2,1998-01-22,1998-03-05,1998-01-23,3,56.46,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Andrew,Fuller
+10847,SAVEA,4,1998-01-22,1998-02-05,1998-02-10,3,487.57,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Margaret,Peacock
+10848,CONSH,7,1998-01-23,1998-02-20,1998-01-29,2,38.24,Consolidated Holdings,Berkeley Gardens 12  Brewery,London,,WX1 6LT,UK,True,Consolidated Holdings,London,UK,Robert,King
+10849,KOENE,9,1998-01-23,1998-02-20,1998-01-30,2,0.56,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Anne,Dodsworth
+10850,VICTE,1,1998-01-23,1998-03-06,1998-01-30,1,49.19,Victuailles en stock,"2, rue du Commerce",Lyon,,69004,France,True,Victuailles en stock,Lyon,France,Nancy,Davolio
+10851,RICAR,5,1998-01-26,1998-02-23,1998-02-02,1,160.55,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Steven,Buchanan
+10852,RATTC,8,1998-01-26,1998-02-09,1998-01-30,1,174.05,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Laura,Callahan
+10853,BLAUS,9,1998-01-27,1998-02-24,1998-02-03,2,53.83,Blauer See Delikatessen,Forsterstr. 57,Mannheim,,68306,Germany,True,Blauer See Delikatessen,Mannheim,Germany,Anne,Dodsworth
+10854,ERNSH,3,1998-01-27,1998-02-24,1998-02-05,2,100.22,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Janet,Leverling
+10855,OLDWO,3,1998-01-27,1998-02-24,1998-02-04,1,170.97,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Janet,Leverling
+10856,ANTON,3,1998-01-28,1998-02-25,1998-02-10,2,58.43,Antonio Moreno Taquer a,Mataderos  2312,M xico D.F.,,05023,Mexico,True,Antonio Moreno Taquer a,M xico D.F.,Mexico,Janet,Leverling
+10857,BERGS,8,1998-01-28,1998-02-25,1998-02-06,2,188.85,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Laura,Callahan
+10858,LACOR,2,1998-01-29,1998-02-26,1998-02-03,1,52.51,La corne d'abondance,"67, avenue de l'Europe",Versailles,,78000,France,True,La corne d'abondance,Versailles,France,Andrew,Fuller
+10859,FRANK,1,1998-01-29,1998-02-26,1998-02-02,2,76.1,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Nancy,Davolio
+10860,FRANR,3,1998-01-29,1998-02-26,1998-02-04,3,19.26,France restauration,"54, rue Royale",Nantes,,44000,France,True,France restauration,Nantes,France,Janet,Leverling
+10861,WHITC,4,1998-01-30,1998-02-27,1998-02-17,2,14.93,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Margaret,Peacock
+10862,LEHMS,8,1998-01-30,1998-03-13,1998-02-02,2,53.23,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Laura,Callahan
+10863,HILAA,4,1998-02-02,1998-03-02,1998-02-17,2,30.26,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Margaret,Peacock
+10864,AROUT,4,1998-02-02,1998-03-02,1998-02-09,2,3.04,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Margaret,Peacock
+10865,QUICK,2,1998-02-02,1998-02-16,1998-02-12,1,348.14,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Andrew,Fuller
+10866,BERGS,5,1998-02-03,1998-03-03,1998-02-12,1,109.11,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Steven,Buchanan
+10867,LONEP,6,1998-02-03,1998-03-17,1998-02-11,1,1.93,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,True,Lonesome Pine Restaurant,Portland,USA,Michael,Suyama
+10868,QUEEN,7,1998-02-04,1998-03-04,1998-02-23,2,191.27,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Robert,King
+10869,SEVES,5,1998-02-04,1998-03-04,1998-02-09,1,143.28,Seven Seas Imports,90 Wadhurst Rd.,London,,OX15 4NB,UK,True,Seven Seas Imports,London,UK,Steven,Buchanan
+10870,WOLZA,5,1998-02-04,1998-03-04,1998-02-13,3,12.04,Wolski Zajazd,ul. Filtrowa 68,Warszawa,,01-012,Poland,True,Wolski  Zajazd,Warszawa,Poland,Steven,Buchanan
+10871,BONAP,9,1998-02-05,1998-03-05,1998-02-10,2,112.27,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Anne,Dodsworth
+10872,GODOS,5,1998-02-05,1998-03-05,1998-02-09,2,175.32,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Steven,Buchanan
+10873,WILMK,4,1998-02-06,1998-03-06,1998-02-09,1,0.82,Wilman Kala,Keskuskatu 45,Helsinki,,21240,Finland,True,Wilman Kala,Helsinki,Finland,Margaret,Peacock
+10874,GODOS,5,1998-02-06,1998-03-06,1998-02-11,2,19.58,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Steven,Buchanan
+10875,BERGS,4,1998-02-06,1998-03-06,1998-03-03,2,32.37,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Margaret,Peacock
+10876,BONAP,7,1998-02-09,1998-03-09,1998-02-12,3,60.42,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Robert,King
+10877,RICAR,1,1998-02-09,1998-03-09,1998-02-19,1,38.06,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,True,Ricardo Adocicados,Rio de Janeiro,Brazil,Nancy,Davolio
+10878,QUICK,4,1998-02-10,1998-03-10,1998-02-12,1,46.69,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Margaret,Peacock
+10879,WILMK,3,1998-02-10,1998-03-10,1998-02-12,3,8.5,Wilman Kala,Keskuskatu 45,Helsinki,,21240,Finland,True,Wilman Kala,Helsinki,Finland,Janet,Leverling
+10880,FOLKO,7,1998-02-10,1998-03-24,1998-02-18,1,88.01,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Robert,King
+10881,CACTU,4,1998-02-11,1998-03-11,1998-02-18,1,2.84,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,,1010,Argentina,True,Cactus Comidas para llevar,Buenos Aires,Argentina,Margaret,Peacock
+10882,SAVEA,4,1998-02-11,1998-03-11,1998-02-20,3,23.1,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Margaret,Peacock
+10883,LONEP,8,1998-02-12,1998-03-12,1998-02-20,3,0.53,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,True,Lonesome Pine Restaurant,Portland,USA,Laura,Callahan
+10884,LETSS,4,1998-02-12,1998-03-12,1998-02-13,2,90.97,Let's Stop N Shop,87 Polk St. Suite 5,San Francisco,CA,94117,USA,True,Let's Stop N Shop,San Francisco,USA,Margaret,Peacock
+10885,SUPRD,6,1998-02-12,1998-03-12,1998-02-18,3,5.64,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Michael,Suyama
+10886,HANAR,1,1998-02-13,1998-03-13,1998-03-02,1,4.99,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Nancy,Davolio
+10887,GALED,8,1998-02-13,1998-03-13,1998-02-16,3,1.25,Galer a del gastron mo,"Rambla de Catalu a, 23",Barcelona,,8022,Spain,True,Galer a del gastr nomo,Barcelona,Spain,Laura,Callahan
+10888,GODOS,1,1998-02-16,1998-03-16,1998-02-23,2,51.87,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Nancy,Davolio
+10889,RATTC,9,1998-02-16,1998-03-16,1998-02-23,3,280.61,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Anne,Dodsworth
+10890,DUMON,7,1998-02-16,1998-03-16,1998-02-18,1,32.76,Du monde entier,"67, rue des Cinquante Otages",Nantes,,44000,France,True,Du monde entier,Nantes,France,Robert,King
+10891,LEHMS,7,1998-02-17,1998-03-17,1998-02-19,2,20.37,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Robert,King
+10892,MAISD,4,1998-02-17,1998-03-17,1998-02-19,2,120.27,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,,B-1180,Belgium,True,Maison Dewey,Bruxelles,Belgium,Margaret,Peacock
+10893,KOENE,9,1998-02-18,1998-03-18,1998-02-20,2,77.78,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Anne,Dodsworth
+10894,SAVEA,1,1998-02-18,1998-03-18,1998-02-20,1,116.13,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Nancy,Davolio
+10895,ERNSH,3,1998-02-18,1998-03-18,1998-02-23,1,162.75,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Janet,Leverling
+10896,MAISD,7,1998-02-19,1998-03-19,1998-02-27,3,32.45,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,,B-1180,Belgium,True,Maison Dewey,Bruxelles,Belgium,Robert,King
+10897,HUNGO,3,1998-02-19,1998-03-19,1998-02-25,2,603.54,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Janet,Leverling
+10898,OCEAN,4,1998-02-20,1998-03-20,1998-03-06,2,1.27,Oc ano Atl ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,,1010,Argentina,True,Oc ano Atl ntico Ltda.,Buenos Aires,Argentina,Margaret,Peacock
+10899,LILAS,5,1998-02-20,1998-03-20,1998-02-26,3,1.21,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Steven,Buchanan
+10900,WELLI,1,1998-02-20,1998-03-20,1998-03-04,2,1.66,Wellington Importadora,"Rua do Mercado, 12",Resende,SP,08737-363,Brazil,True,Wellington Importadora,Resende,Brazil,Nancy,Davolio
+10901,HILAA,4,1998-02-23,1998-03-23,1998-02-26,1,62.09,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Margaret,Peacock
+10902,FOLKO,1,1998-02-23,1998-03-23,1998-03-03,1,44.15,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Nancy,Davolio
+10903,HANAR,3,1998-02-24,1998-03-24,1998-03-04,3,36.71,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Janet,Leverling
+10904,WHITC,3,1998-02-24,1998-03-24,1998-02-27,3,162.95,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Janet,Leverling
+10905,WELLI,9,1998-02-24,1998-03-24,1998-03-06,2,13.72,Wellington Importadora,"Rua do Mercado, 12",Resende,SP,08737-363,Brazil,True,Wellington Importadora,Resende,Brazil,Anne,Dodsworth
+10906,WOLZA,4,1998-02-25,1998-03-11,1998-03-03,3,26.29,Wolski Zajazd,ul. Filtrowa 68,Warszawa,,01-012,Poland,True,Wolski  Zajazd,Warszawa,Poland,Margaret,Peacock
+10907,SPECD,6,1998-02-25,1998-03-25,1998-02-27,3,9.19,Sp cialit s du monde,"25, rue Lauriston",Paris,,75016,France,True,Sp cialit s du monde,Paris,France,Michael,Suyama
+10908,REGGC,4,1998-02-26,1998-03-26,1998-03-06,2,32.96,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Margaret,Peacock
+10909,SANTG,1,1998-02-26,1998-03-26,1998-03-10,2,53.05,Sant  Gourmet,Erling Skakkes gate 78,Stavern,,4110,Norway,True,Sant  Gourmet,Stavern,Norway,Nancy,Davolio
+10910,WILMK,1,1998-02-26,1998-03-26,1998-03-04,3,38.11,Wilman Kala,Keskuskatu 45,Helsinki,,21240,Finland,True,Wilman Kala,Helsinki,Finland,Nancy,Davolio
+10911,GODOS,3,1998-02-26,1998-03-26,1998-03-05,1,38.19,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Janet,Leverling
+10912,HUNGO,2,1998-02-26,1998-03-26,1998-03-18,2,580.91,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Andrew,Fuller
+10913,QUEEN,4,1998-02-26,1998-03-26,1998-03-04,1,33.05,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Margaret,Peacock
+10914,QUEEN,6,1998-02-27,1998-03-27,1998-03-02,1,21.19,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Michael,Suyama
+10915,TORTU,2,1998-02-27,1998-03-27,1998-03-02,2,3.51,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Andrew,Fuller
+10916,RANCH,1,1998-02-27,1998-03-27,1998-03-09,2,63.77,Rancho grande,Av. del Libertador 900,Buenos Aires,,1010,Argentina,True,Rancho grande,Buenos Aires,Argentina,Nancy,Davolio
+10917,ROMEY,4,1998-03-02,1998-03-30,1998-03-11,2,8.29,Romero y tomillo,"Gran V a, 1",Madrid,,28001,Spain,True,Romero y tomillo,Madrid,Spain,Margaret,Peacock
+10918,BOTTM,3,1998-03-02,1998-03-30,1998-03-11,3,48.83,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Janet,Leverling
+10919,LINOD,2,1998-03-02,1998-03-30,1998-03-04,2,19.8,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Andrew,Fuller
+10920,AROUT,4,1998-03-03,1998-03-31,1998-03-09,2,29.61,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Margaret,Peacock
+10921,VAFFE,1,1998-03-03,1998-04-14,1998-03-09,1,176.48,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Nancy,Davolio
+10922,HANAR,5,1998-03-03,1998-03-31,1998-03-05,3,62.74,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Steven,Buchanan
+10923,LAMAI,7,1998-03-03,1998-04-14,1998-03-13,3,68.26,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,True,La maison d'Asie,Toulouse,France,Robert,King
+10924,BERGS,3,1998-03-04,1998-04-01,1998-04-08,2,151.52,Berglunds snabbk p,Berguvsv gen  8,Lule ,,S-958 22,Sweden,True,Berglunds snabbk p,Lule ,Sweden,Janet,Leverling
+10925,HANAR,3,1998-03-04,1998-04-01,1998-03-13,1,2.27,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Janet,Leverling
+10926,ANATR,4,1998-03-04,1998-04-01,1998-03-11,3,39.92,Ana Trujillo Emparedados y helados,Avda. de la Constituci n 2222,M xico D.F.,,05021,Mexico,True,Ana Trujillo Emparedados y helados,M xico D.F.,Mexico,Margaret,Peacock
+10927,LACOR,4,1998-03-05,1998-04-02,1998-04-08,1,19.79,La corne d'abondance,"67, avenue de l'Europe",Versailles,,78000,France,True,La corne d'abondance,Versailles,France,Margaret,Peacock
+10928,GALED,1,1998-03-05,1998-04-02,1998-03-18,1,1.36,Galer a del gastron mo,"Rambla de Catalu a, 23",Barcelona,,8022,Spain,True,Galer a del gastr nomo,Barcelona,Spain,Nancy,Davolio
+10929,FRANK,6,1998-03-05,1998-04-02,1998-03-12,1,33.93,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Michael,Suyama
+10930,SUPRD,4,1998-03-06,1998-04-17,1998-03-18,3,15.55,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Margaret,Peacock
+10931,RICSU,4,1998-03-06,1998-03-20,1998-03-19,2,13.6,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,True,Richter Supermarkt,Gen ve,Switzerland,Margaret,Peacock
+10932,BONAP,8,1998-03-06,1998-04-03,1998-03-24,1,134.64,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Laura,Callahan
+10933,ISLAT,6,1998-03-06,1998-04-03,1998-03-16,3,54.15,Island Trading,Garden House Crowther Way,Cowes,Isle of Wight,PO31 7PJ,UK,True,Island Trading,Cowes,UK,Michael,Suyama
+10934,LEHMS,3,1998-03-09,1998-04-06,1998-03-12,3,32.01,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,True,Lehmanns Marktstand,Frankfurt a.M.,Germany,Janet,Leverling
+10935,WELLI,4,1998-03-09,1998-04-06,1998-03-18,3,47.59,Wellington Importadora,"Rua do Mercado, 12",Resende,SP,08737-363,Brazil,True,Wellington Importadora,Resende,Brazil,Margaret,Peacock
+10936,GREAL,3,1998-03-09,1998-04-06,1998-03-18,2,33.68,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,True,Great Lakes Food Market,Eugene,USA,Janet,Leverling
+10937,CACTU,7,1998-03-10,1998-03-24,1998-03-13,3,31.51,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,,1010,Argentina,True,Cactus Comidas para llevar,Buenos Aires,Argentina,Robert,King
+10938,QUICK,3,1998-03-10,1998-04-07,1998-03-16,2,31.89,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Janet,Leverling
+10939,MAGAA,2,1998-03-10,1998-04-07,1998-03-13,2,76.33,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Andrew,Fuller
+10940,BONAP,8,1998-03-11,1998-04-08,1998-03-23,3,19.77,Bon app',"12, rue des Bouchers",Marseille,,13008,France,True,Bon app',Marseille,France,Laura,Callahan
+10941,SAVEA,7,1998-03-11,1998-04-08,1998-03-20,2,400.81,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Robert,King
+10942,REGGC,9,1998-03-11,1998-04-08,1998-03-18,3,17.95,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Anne,Dodsworth
+10943,BSBEV,4,1998-03-11,1998-04-08,1998-03-19,2,2.17,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Margaret,Peacock
+10944,BOTTM,6,1998-03-12,1998-03-26,1998-03-13,3,52.92,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Michael,Suyama
+10945,MORGK,4,1998-03-12,1998-04-09,1998-03-18,1,10.22,Morgenstern Gesundkost,Heerstr. 22,Leipzig,,04179,Germany,True,Morgenstern Gesundkost,Leipzig,Germany,Margaret,Peacock
+10946,VAFFE,1,1998-03-12,1998-04-09,1998-03-19,2,27.2,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Nancy,Davolio
+10947,BSBEV,3,1998-03-13,1998-04-10,1998-03-16,2,3.26,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Janet,Leverling
+10948,GODOS,3,1998-03-13,1998-04-10,1998-03-19,3,23.39,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Janet,Leverling
+10949,BOTTM,2,1998-03-13,1998-04-10,1998-03-17,3,74.44,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Andrew,Fuller
+10950,MAGAA,1,1998-03-16,1998-04-13,1998-03-23,2,2.5,Magazzini Alimentari Riuniti,Via Ludovico il Moro 22,Bergamo,,24100,Italy,True,Magazzini Alimentari Riuniti,Bergamo,Italy,Nancy,Davolio
+10951,RICSU,9,1998-03-16,1998-04-27,1998-04-07,2,30.85,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,True,Richter Supermarkt,Gen ve,Switzerland,Anne,Dodsworth
+10952,ALFKI,1,1998-03-16,1998-04-27,1998-03-24,1,40.42,Alfred's Futterkiste,Obere Str. 57,Berlin,,12209,Germany,True,Alfreds Futterkiste,Berlin,Germany,Nancy,Davolio
+10953,AROUT,9,1998-03-16,1998-03-30,1998-03-25,2,23.72,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Anne,Dodsworth
+10954,LINOD,5,1998-03-17,1998-04-28,1998-03-20,1,27.91,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Steven,Buchanan
+10955,FOLKO,8,1998-03-17,1998-04-14,1998-03-20,2,3.26,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Laura,Callahan
+10956,BLAUS,6,1998-03-17,1998-04-28,1998-03-20,2,44.65,Blauer See Delikatessen,Forsterstr. 57,Mannheim,,68306,Germany,True,Blauer See Delikatessen,Mannheim,Germany,Michael,Suyama
+10957,HILAA,8,1998-03-18,1998-04-15,1998-03-27,3,105.36,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Laura,Callahan
+10958,OCEAN,7,1998-03-18,1998-04-15,1998-03-27,2,49.56,Oc ano Atl ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,,1010,Argentina,True,Oc ano Atl ntico Ltda.,Buenos Aires,Argentina,Robert,King
+10959,GOURL,6,1998-03-18,1998-04-29,1998-03-23,2,4.98,Gourmet Lanchonetes,"Av. Brasil, 442",Campinas,SP,04876-786,Brazil,True,Gourmet Lanchonetes,Campinas,Brazil,Michael,Suyama
+10960,HILAA,3,1998-03-19,1998-04-02,1998-04-08,1,2.08,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Janet,Leverling
+10961,QUEEN,8,1998-03-19,1998-04-16,1998-03-30,1,104.47,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,True,Queen Cozinha,Sao Paulo,Brazil,Laura,Callahan
+10962,QUICK,8,1998-03-19,1998-04-16,1998-03-23,2,275.79,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Laura,Callahan
+10963,FURIB,9,1998-03-19,1998-04-16,1998-03-26,3,2.7,Furia Bacalhau e Frutos do Mar,Jardim das rosas n. 32,Lisboa,,1675,Portugal,True,Furia Bacalhau e Frutos do Mar,Lisboa,Portugal,Anne,Dodsworth
+10964,SPECD,3,1998-03-20,1998-04-17,1998-03-24,2,87.38,Sp cialit s du monde,"25, rue Lauriston",Paris,,75016,France,True,Sp cialit s du monde,Paris,France,Janet,Leverling
+10965,OLDWO,6,1998-03-20,1998-04-17,1998-03-30,3,144.38,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Michael,Suyama
+10966,CHOPS,4,1998-03-20,1998-04-17,1998-04-08,1,27.19,Chop-suey Chinese,Hauptstr. 31,Bern,,3012,Switzerland,True,Chop-suey Chinese,Bern,Switzerland,Margaret,Peacock
+10967,TOMSP,2,1998-03-23,1998-04-20,1998-04-02,2,62.22,Toms Spezialit ten,Luisenstr. 48,M nster,,44087,Germany,True,Toms Spezialit ten,M nster,Germany,Andrew,Fuller
+10968,ERNSH,1,1998-03-23,1998-04-20,1998-04-01,3,74.6,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Nancy,Davolio
+10969,COMMI,1,1998-03-23,1998-04-20,1998-03-30,2,0.21,Com rcio Mineiro,"Av. dos Lus adas, 23",Sao Paulo,SP,05432-043,Brazil,True,Com rcio Mineiro,Sao Paulo,Brazil,Nancy,Davolio
+10970,BOLID,9,1998-03-24,1998-04-07,1998-04-24,1,16.16,B lido Comidas preparadas,"C/ Araquil, 67",Madrid,,28023,Spain,True,B lido Comidas preparadas,Madrid,Spain,Anne,Dodsworth
+10971,FRANR,2,1998-03-24,1998-04-21,1998-04-02,2,121.82,France restauration,"54, rue Royale",Nantes,,44000,France,True,France restauration,Nantes,France,Andrew,Fuller
+10972,LACOR,4,1998-03-24,1998-04-21,1998-03-26,2,0.02,La corne d'abondance,"67, avenue de l'Europe",Versailles,,78000,France,True,La corne d'abondance,Versailles,France,Margaret,Peacock
+10973,LACOR,6,1998-03-24,1998-04-21,1998-03-27,2,15.17,La corne d'abondance,"67, avenue de l'Europe",Versailles,,78000,France,True,La corne d'abondance,Versailles,France,Michael,Suyama
+10974,SPLIR,3,1998-03-25,1998-04-08,1998-04-03,3,12.96,Split Rail Beer & Ale,P.O. Box 555,Lander,WY,82520,USA,True,Split Rail Beer & Ale,Lander,USA,Janet,Leverling
+10975,BOTTM,1,1998-03-25,1998-04-22,1998-03-27,3,32.27,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Nancy,Davolio
+10976,HILAA,1,1998-03-25,1998-05-06,1998-04-03,1,37.97,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Nancy,Davolio
+10977,FOLKO,8,1998-03-26,1998-04-23,1998-04-10,3,208.5,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Laura,Callahan
+10978,MAISD,9,1998-03-26,1998-04-23,1998-04-23,2,32.82,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,,B-1180,Belgium,True,Maison Dewey,Bruxelles,Belgium,Anne,Dodsworth
+10979,ERNSH,8,1998-03-26,1998-04-23,1998-03-31,2,353.07,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Laura,Callahan
+10980,FOLKO,4,1998-03-27,1998-05-08,1998-04-17,1,1.26,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Margaret,Peacock
+10981,HANAR,1,1998-03-27,1998-04-24,1998-04-02,2,193.37,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Nancy,Davolio
+10982,BOTTM,2,1998-03-27,1998-04-24,1998-04-08,1,14.01,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Andrew,Fuller
+10983,SAVEA,2,1998-03-27,1998-04-24,1998-04-06,2,657.54,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Andrew,Fuller
+10984,SAVEA,1,1998-03-30,1998-04-27,1998-04-03,3,211.22,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Nancy,Davolio
+10985,HUNGO,2,1998-03-30,1998-04-27,1998-04-02,1,91.51,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Andrew,Fuller
+10986,OCEAN,8,1998-03-30,1998-04-27,1998-04-21,2,217.86,Oc ano Atl ntico Ltda.,Ing. Gustavo Moncada 8585 Piso 20-A,Buenos Aires,,1010,Argentina,True,Oc ano Atl ntico Ltda.,Buenos Aires,Argentina,Laura,Callahan
+10987,EASTC,8,1998-03-31,1998-04-28,1998-04-06,1,185.48,Eastern Connection,35 King George,London,,WX3 6FW,UK,True,Eastern Connection,London,UK,Laura,Callahan
+10988,RATTC,3,1998-03-31,1998-04-28,1998-04-10,2,61.14,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Janet,Leverling
+10989,QUEDE,2,1998-03-31,1998-04-28,1998-04-02,1,34.76,Que Del cia,"Rua da Panificadora, 12",Rio de Janeiro,RJ,02389-673,Brazil,True,Que Del cia,Rio de Janeiro,Brazil,Andrew,Fuller
+10990,ERNSH,2,1998-04-01,1998-05-13,1998-04-07,3,117.61,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Andrew,Fuller
+10991,QUICK,1,1998-04-01,1998-04-29,1998-04-07,1,38.51,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Nancy,Davolio
+10992,THEBI,1,1998-04-01,1998-04-29,1998-04-03,3,4.27,The Big Cheese,89 Jefferson Way Suite 2,Portland,OR,97201,USA,True,The Big Cheese,Portland,USA,Nancy,Davolio
+10993,FOLKO,7,1998-04-01,1998-04-29,1998-04-10,3,8.81,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Robert,King
+10994,VAFFE,2,1998-04-02,1998-04-16,1998-04-09,3,65.53,Vaffeljernet,Smagsloget 45, rhus,,8200,Denmark,True,Vaffeljernet, rhus,Denmark,Andrew,Fuller
+10995,PERIC,1,1998-04-02,1998-04-30,1998-04-06,3,46.0,Pericles Comidas cl sicas,Calle Dr. Jorge Cash 321,M xico D.F.,,05033,Mexico,True,Pericles Comidas cl sicas,M xico D.F.,Mexico,Nancy,Davolio
+10996,QUICK,4,1998-04-02,1998-04-30,1998-04-10,2,1.12,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Margaret,Peacock
+10997,LILAS,8,1998-04-03,1998-05-15,1998-04-13,2,73.91,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,True,LILA-Supermercado,Barquisimeto,Venezuela,Laura,Callahan
+10998,WOLZA,8,1998-04-03,1998-04-17,1998-04-17,2,20.31,Wolski Zajazd,ul. Filtrowa 68,Warszawa,,01-012,Poland,True,Wolski  Zajazd,Warszawa,Poland,Laura,Callahan
+10999,OTTIK,6,1998-04-03,1998-05-01,1998-04-10,2,96.35,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Michael,Suyama
+11000,RATTC,2,1998-04-06,1998-05-04,1998-04-14,3,55.12,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,True,Rattlesnake Canyon Grocery,Albuquerque,USA,Andrew,Fuller
+11001,FOLKO,2,1998-04-06,1998-05-04,1998-04-14,2,197.3,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Andrew,Fuller
+11002,SAVEA,4,1998-04-06,1998-05-04,1998-04-16,1,141.16,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Margaret,Peacock
+11003,THECR,3,1998-04-06,1998-05-04,1998-04-08,3,14.91,The Cracker Box,55 Grizzly Peak Rd.,Butte,MT,59801,USA,True,The Cracker Box,Butte,USA,Janet,Leverling
+11004,MAISD,3,1998-04-07,1998-05-05,1998-04-20,1,44.84,Maison Dewey,Rue Joseph-Bens 532,Bruxelles,,B-1180,Belgium,True,Maison Dewey,Bruxelles,Belgium,Janet,Leverling
+11005,WILMK,2,1998-04-07,1998-05-05,1998-04-10,1,0.75,Wilman Kala,Keskuskatu 45,Helsinki,,21240,Finland,True,Wilman Kala,Helsinki,Finland,Andrew,Fuller
+11006,GREAL,3,1998-04-07,1998-05-05,1998-04-15,2,25.19,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,True,Great Lakes Food Market,Eugene,USA,Janet,Leverling
+11007,PRINI,8,1998-04-08,1998-05-06,1998-04-13,2,202.24,Princesa Isabel Vinhos,Estrada da sa de n. 58,Lisboa,,1756,Portugal,True,Princesa Isabel Vinhos,Lisboa,Portugal,Laura,Callahan
+11008,ERNSH,7,1998-04-08,1998-05-06,,3,79.46,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,False,Ernst Handel,Graz,Austria,Robert,King
+11009,GODOS,2,1998-04-08,1998-05-06,1998-04-10,1,59.11,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Andrew,Fuller
+11010,REGGC,2,1998-04-09,1998-05-07,1998-04-21,2,28.71,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,True,Reggiani Caseifici,Reggio Emilia,Italy,Andrew,Fuller
+11011,ALFKI,3,1998-04-09,1998-05-07,1998-04-13,1,1.21,Alfred's Futterkiste,Obere Str. 57,Berlin,,12209,Germany,True,Alfreds Futterkiste,Berlin,Germany,Janet,Leverling
+11012,FRANK,1,1998-04-09,1998-04-23,1998-04-17,3,242.95,Frankenversand,Berliner Platz 43,M nchen,,80805,Germany,True,Frankenversand,M nchen,Germany,Nancy,Davolio
+11013,ROMEY,2,1998-04-09,1998-05-07,1998-04-10,1,32.99,Romero y tomillo,"Gran V a, 1",Madrid,,28001,Spain,True,Romero y tomillo,Madrid,Spain,Andrew,Fuller
+11014,LINOD,2,1998-04-10,1998-05-08,1998-04-15,3,23.6,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,True,LINO-Delicateses,I. de Margarita,Venezuela,Andrew,Fuller
+11015,SANTG,2,1998-04-10,1998-04-24,1998-04-20,2,4.62,Sant  Gourmet,Erling Skakkes gate 78,Stavern,,4110,Norway,True,Sant  Gourmet,Stavern,Norway,Andrew,Fuller
+11016,AROUT,9,1998-04-10,1998-05-08,1998-04-13,2,33.8,Around the Horn,Brook Farm Stratford St. Mary,Colchester,Essex,CO7 6JX,UK,True,Around the Horn,London,UK,Anne,Dodsworth
+11017,ERNSH,9,1998-04-13,1998-05-11,1998-04-20,2,754.26,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,True,Ernst Handel,Graz,Austria,Anne,Dodsworth
+11018,LONEP,4,1998-04-13,1998-05-11,1998-04-16,2,11.65,Lonesome Pine Restaurant,89 Chiaroscuro Rd.,Portland,OR,97219,USA,True,Lonesome Pine Restaurant,Portland,USA,Margaret,Peacock
+11019,RANCH,6,1998-04-13,1998-05-11,,3,3.17,Rancho grande,Av. del Libertador 900,Buenos Aires,,1010,Argentina,False,Rancho grande,Buenos Aires,Argentina,Michael,Suyama
+11020,OTTIK,2,1998-04-14,1998-05-12,1998-04-16,2,43.3,Ottilies K seladen,Mehrheimerstr. 369,K ln,,50739,Germany,True,Ottilies K seladen,K ln,Germany,Andrew,Fuller
+11021,QUICK,3,1998-04-14,1998-05-12,1998-04-21,1,297.18,QUICK-Stop,Taucherstra e 10,Cunewalde,,01307,Germany,True,QUICK-Stop,Cunewalde,Germany,Janet,Leverling
+11022,HANAR,9,1998-04-14,1998-05-12,1998-05-04,2,6.27,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Anne,Dodsworth
+11023,BSBEV,1,1998-04-14,1998-04-28,1998-04-24,2,123.83,B's Beverages,Fauntleroy Circus,London,,EC2 5NT,UK,True,B's Beverages,London,UK,Nancy,Davolio
+11024,EASTC,4,1998-04-15,1998-05-13,1998-04-20,1,74.36,Eastern Connection,35 King George,London,,WX3 6FW,UK,True,Eastern Connection,London,UK,Margaret,Peacock
+11025,WARTH,6,1998-04-15,1998-05-13,1998-04-24,3,29.17,Wartian Herkku,Torikatu 38,Oulu,,90110,Finland,True,Wartian Herkku,Oulu,Finland,Michael,Suyama
+11026,FRANS,4,1998-04-15,1998-05-13,1998-04-28,1,47.09,Franchi S.p.A.,Via Monte Bianco 34,Torino,,10100,Italy,True,Franchi S.p.A.,Torino,Italy,Margaret,Peacock
+11027,BOTTM,1,1998-04-16,1998-05-14,1998-04-20,1,52.52,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Nancy,Davolio
+11028,KOENE,2,1998-04-16,1998-05-14,1998-04-22,1,29.59,K niglich Essen,Maubelstr. 90,Brandenburg,,14776,Germany,True,K niglich Essen,Brandenburg,Germany,Andrew,Fuller
+11029,CHOPS,4,1998-04-16,1998-05-14,1998-04-27,1,47.84,Chop-suey Chinese,Hauptstr. 31,Bern,,3012,Switzerland,True,Chop-suey Chinese,Bern,Switzerland,Margaret,Peacock
+11030,SAVEA,7,1998-04-17,1998-05-15,1998-04-27,2,830.75,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Robert,King
+11031,SAVEA,6,1998-04-17,1998-05-15,1998-04-24,2,227.22,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Michael,Suyama
+11032,WHITC,2,1998-04-17,1998-05-15,1998-04-23,3,606.19,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Andrew,Fuller
+11033,RICSU,7,1998-04-17,1998-05-15,1998-04-23,3,84.74,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,True,Richter Supermarkt,Gen ve,Switzerland,Robert,King
+11034,OLDWO,8,1998-04-20,1998-06-01,1998-04-27,1,40.32,Old World Delicatessen,2743 Bering St.,Anchorage,AK,99508,USA,True,Old World Delicatessen,Anchorage,USA,Laura,Callahan
+11035,SUPRD,2,1998-04-20,1998-05-18,1998-04-24,2,0.17,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Andrew,Fuller
+11036,DRACD,8,1998-04-20,1998-05-18,1998-04-22,3,149.47,Drachenblut Delikatessen,Walserweg 21,Aachen,,52066,Germany,True,Drachenblut Delikatessen,Aachen,Germany,Laura,Callahan
+11037,GODOS,7,1998-04-21,1998-05-19,1998-04-27,1,3.2,Godos Cocina T pica,"C/ Romero, 33",Sevilla,,41101,Spain,True,Godos Cocina T pica,Sevilla,Spain,Robert,King
+11038,SUPRD,1,1998-04-21,1998-05-19,1998-04-30,2,29.59,Supr mes d lices,"Boulevard Tirou, 255",Charleroi,,B-6000,Belgium,True,Supr mes d lices,Charleroi,Belgium,Nancy,Davolio
+11039,LINOD,1,1998-04-21,1998-05-19,,2,65.0,LINO-Delicateses,Ave. 5 de Mayo Porlamar,I. de Margarita,Nueva Esparta,4980,Venezuela,False,LINO-Delicateses,I. de Margarita,Venezuela,Nancy,Davolio
+11040,GREAL,4,1998-04-22,1998-05-20,,3,18.84,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,False,Great Lakes Food Market,Eugene,USA,Margaret,Peacock
+11041,CHOPS,3,1998-04-22,1998-05-20,1998-04-28,2,48.22,Chop-suey Chinese,Hauptstr. 31,Bern,,3012,Switzerland,True,Chop-suey Chinese,Bern,Switzerland,Janet,Leverling
+11042,COMMI,2,1998-04-22,1998-05-06,1998-05-01,1,29.99,Com rcio Mineiro,"Av. dos Lus adas, 23",Sao Paulo,SP,05432-043,Brazil,True,Com rcio Mineiro,Sao Paulo,Brazil,Andrew,Fuller
+11043,SPECD,5,1998-04-22,1998-05-20,1998-04-29,2,8.8,Sp cialit s du monde,"25, rue Lauriston",Paris,,75016,France,True,Sp cialit s du monde,Paris,France,Steven,Buchanan
+11044,WOLZA,4,1998-04-23,1998-05-21,1998-05-01,1,8.72,Wolski Zajazd,ul. Filtrowa 68,Warszawa,,01-012,Poland,True,Wolski  Zajazd,Warszawa,Poland,Margaret,Peacock
+11045,BOTTM,6,1998-04-23,1998-05-21,,2,70.58,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,False,Bottom-Dollar Markets,Tsawassen,Canada,Michael,Suyama
+11046,WANDK,8,1998-04-23,1998-05-21,1998-04-24,2,71.64,Die Wandernde Kuh,Adenauerallee 900,Stuttgart,,70563,Germany,True,Die Wandernde Kuh,Stuttgart,Germany,Laura,Callahan
+11047,EASTC,7,1998-04-24,1998-05-22,1998-05-01,3,46.62,Eastern Connection,35 King George,London,,WX3 6FW,UK,True,Eastern Connection,London,UK,Robert,King
+11048,BOTTM,7,1998-04-24,1998-05-22,1998-04-30,3,24.12,Bottom-Dollar Markets,23 Tsawassen Blvd.,Tsawassen,BC,T2F 8M4,Canada,True,Bottom-Dollar Markets,Tsawassen,Canada,Robert,King
+11049,GOURL,3,1998-04-24,1998-05-22,1998-05-04,1,8.34,Gourmet Lanchonetes,"Av. Brasil, 442",Campinas,SP,04876-786,Brazil,True,Gourmet Lanchonetes,Campinas,Brazil,Janet,Leverling
+11050,FOLKO,8,1998-04-27,1998-05-25,1998-05-05,2,59.41,Folk och f  HB, kergatan 24,Br cke,,S-844 67,Sweden,True,Folk och f  HB,Br cke,Sweden,Laura,Callahan
+11051,LAMAI,7,1998-04-27,1998-05-25,,3,2.79,La maison d'Asie,1 rue Alsace-Lorraine,Toulouse,,31000,France,False,La maison d'Asie,Toulouse,France,Robert,King
+11052,HANAR,3,1998-04-27,1998-05-25,1998-05-01,1,67.26,Hanari Carnes,"Rua do Pa o, 67",Rio de Janeiro,RJ,05454-876,Brazil,True,Hanari Carnes,Rio de Janeiro,Brazil,Janet,Leverling
+11053,PICCO,2,1998-04-27,1998-05-25,1998-04-29,2,53.05,Piccolo und mehr,Geislweg 14,Salzburg,,5020,Austria,True,Piccolo und mehr,Salzburg,Austria,Andrew,Fuller
+11054,CACTU,8,1998-04-28,1998-05-26,,1,0.33,Cactus Comidas para llevar,Cerrito 333,Buenos Aires,,1010,Argentina,False,Cactus Comidas para llevar,Buenos Aires,Argentina,Laura,Callahan
+11055,HILAA,7,1998-04-28,1998-05-26,1998-05-05,2,120.92,HILARION-Abastos,Carrera 22 con Ave. Carlos Soublette #8-35,San Crist bal,T chira,5022,Venezuela,True,HILARION-Abastos,San Crist bal,Venezuela,Robert,King
+11056,EASTC,8,1998-04-28,1998-05-12,1998-05-01,2,278.96,Eastern Connection,35 King George,London,,WX3 6FW,UK,True,Eastern Connection,London,UK,Laura,Callahan
+11057,NORTS,3,1998-04-29,1998-05-27,1998-05-01,3,4.13,North/South,South House 300 Queensbridge,London,,SW7 1RZ,UK,True,North/South,London,UK,Janet,Leverling
+11058,BLAUS,9,1998-04-29,1998-05-27,,3,31.14,Blauer See Delikatessen,Forsterstr. 57,Mannheim,,68306,Germany,False,Blauer See Delikatessen,Mannheim,Germany,Anne,Dodsworth
+11059,RICAR,2,1998-04-29,1998-06-10,,2,85.8,Ricardo Adocicados,"Av. Copacabana, 267",Rio de Janeiro,RJ,02389-890,Brazil,False,Ricardo Adocicados,Rio de Janeiro,Brazil,Andrew,Fuller
+11060,FRANS,2,1998-04-30,1998-05-28,1998-05-04,2,10.98,Franchi S.p.A.,Via Monte Bianco 34,Torino,,10100,Italy,True,Franchi S.p.A.,Torino,Italy,Andrew,Fuller
+11061,GREAL,4,1998-04-30,1998-06-11,,3,14.01,Great Lakes Food Market,2732 Baker Blvd.,Eugene,OR,97403,USA,False,Great Lakes Food Market,Eugene,USA,Margaret,Peacock
+11062,REGGC,4,1998-04-30,1998-05-28,,2,29.93,Reggiani Caseifici,Strada Provinciale 124,Reggio Emilia,,42100,Italy,False,Reggiani Caseifici,Reggio Emilia,Italy,Margaret,Peacock
+11063,HUNGO,3,1998-04-30,1998-05-28,1998-05-06,2,81.73,Hungry Owl All-Night Grocers,8 Johnstown Road,Cork,Co. Cork,,Ireland,True,Hungry Owl All-Night Grocers,Cork,Ireland,Janet,Leverling
+11064,SAVEA,1,1998-05-01,1998-05-29,1998-05-04,1,30.09,Save-a-lot Markets,187 Suffolk Ln.,Boise,ID,83720,USA,True,Save-a-lot Markets,Boise,USA,Nancy,Davolio
+11065,LILAS,8,1998-05-01,1998-05-29,,1,12.91,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,False,LILA-Supermercado,Barquisimeto,Venezuela,Laura,Callahan
+11066,WHITC,7,1998-05-01,1998-05-29,1998-05-04,2,44.72,White Clover Markets,1029 - 12th Ave. S.,Seattle,WA,98124,USA,True,White Clover Markets,Seattle,USA,Robert,King
+11067,DRACD,1,1998-05-04,1998-05-18,1998-05-06,2,7.98,Drachenblut Delikatessen,Walserweg 21,Aachen,,52066,Germany,True,Drachenblut Delikatessen,Aachen,Germany,Nancy,Davolio
+11068,QUEEN,8,1998-05-04,1998-06-01,,2,81.75,Queen Cozinha,"Alameda dos Can rios, 891",Sao Paulo,SP,05487-020,Brazil,False,Queen Cozinha,Sao Paulo,Brazil,Laura,Callahan
+11069,TORTU,1,1998-05-04,1998-06-01,1998-05-06,2,15.67,Tortuga Restaurante,Avda. Azteca 123,M xico D.F.,,05033,Mexico,True,Tortuga Restaurante,M xico D.F.,Mexico,Nancy,Davolio
+11070,LEHMS,2,1998-05-05,1998-06-02,,1,136.0,Lehmanns Marktstand,Magazinweg 7,Frankfurt a.M.,,60528,Germany,False,Lehmanns Marktstand,Frankfurt a.M.,Germany,Andrew,Fuller
+11071,LILAS,1,1998-05-05,1998-06-02,,1,0.93,LILA-Supermercado,Carrera 52 con Ave. Bol var #65-98 Llano Largo,Barquisimeto,Lara,3508,Venezuela,False,LILA-Supermercado,Barquisimeto,Venezuela,Nancy,Davolio
+11072,ERNSH,4,1998-05-05,1998-06-02,,2,258.64,Ernst Handel,Kirchgasse 6,Graz,,8010,Austria,False,Ernst Handel,Graz,Austria,Margaret,Peacock
+11073,PERIC,2,1998-05-05,1998-06-02,,2,24.95,Pericles Comidas cl sicas,Calle Dr. Jorge Cash 321,M xico D.F.,,05033,Mexico,False,Pericles Comidas cl sicas,M xico D.F.,Mexico,Andrew,Fuller
+11074,SIMOB,7,1998-05-06,1998-06-03,,2,18.44,Simons bistro,Vinb ltet 34,Kobenhavn,,1734,Denmark,False,Simons bistro,Kobenhavn,Denmark,Robert,King
+11075,RICSU,8,1998-05-06,1998-06-03,,2,6.19,Richter Supermarkt,Starenweg 5,Gen ve,,1204,Switzerland,False,Richter Supermarkt,Gen ve,Switzerland,Laura,Callahan
+11076,BONAP,4,1998-05-06,1998-06-03,,2,38.28,Bon app',"12, rue des Bouchers",Marseille,,13008,France,False,Bon app',Marseille,France,Margaret,Peacock
+11077,RATTC,1,1998-05-06,1998-06-03,,2,8.53,Rattlesnake Canyon Grocery,2817 Milton Dr.,Albuquerque,NM,87110,USA,False,Rattlesnake Canyon Grocery,Albuquerque,USA,Nancy,Davolio
